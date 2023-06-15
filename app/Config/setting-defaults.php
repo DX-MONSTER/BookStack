@@ -9,7 +9,7 @@
  */
 
 return [
-    'app-name'             => 'Anially',
+    'app-name'             => 'ZOE',
     'app-logo'             => '',
     'app-name-header'      => true,
     'app-editor'           => 'wysiwyg',
