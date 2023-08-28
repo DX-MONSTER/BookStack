@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\ActivityQueries;
-use BookStack\Auth\Queries\UserContentCounts;
-use BookStack\Auth\Queries\UserRecentlyCreatedContent;
-use BookStack\Auth\UserRepo;
+use App\Actions\ActivityQueries;
+use App\Auth\Queries\UserContentCounts;
+use App\Auth\Queries\UserRecentlyCreatedContent;
+use App\Auth\UserRepo;
 
 class UserProfileController extends Controller
 {

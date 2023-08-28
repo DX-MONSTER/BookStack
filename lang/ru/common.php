@@ -1,6 +1,6 @@
 <?php
 /**
- * Common elements found throughout many areas of BookStack.
+ * Common elements found throughout many areas of App.
  */
 return [
 

@@ -2,8 +2,8 @@
 
 namespace Tests\Auth;
 
-use BookStack\Auth\Role;
-use BookStack\Auth\User;
+use App\Auth\Role;
+use App\Auth\User;
 use Tests\TestCase;
 
 class Saml2Test extends TestCase
@@ -314,7 +314,7 @@ class Saml2Test extends TestCase
         $acsPost = $this->followingRedirects()->post('/saml2/acs', ['SAMLResponse' => $this->acsPostData]);
 
         $this->assertEquals('http://localhost/register/confirm', url()->current());
-        $acsPost->assertSee('Please check your email and click the confirmation button to access BookStack.');
+        $acsPost->assertSee('Please check your email and click the confirmation button to access App.');
         /** @var User $user */
         $user = User::query()->where('external_auth_id', '=', 'user')->first();
 

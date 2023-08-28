@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Actions;
+namespace App\Actions;
 
-use BookStack\Auth\Permissions\JointPermission;
-use BookStack\Model;
+use App\Auth\Permissions\JointPermission;
+use App\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

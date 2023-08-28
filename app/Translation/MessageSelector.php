@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Translation;
+namespace App\Translation;
 
 use Illuminate\Translation\MessageSelector as BaseClass;
 

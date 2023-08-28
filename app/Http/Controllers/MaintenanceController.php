@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Entities\Tools\TrashCan;
-use BookStack\Notifications\TestEmail;
-use BookStack\References\ReferenceStore;
-use BookStack\Uploads\ImageService;
+use App\Actions\ActivityType;
+use App\Entities\Tools\TrashCan;
+use App\Notifications\TestEmail;
+use App\References\ReferenceStore;
+use App\Uploads\ImageService;
 use Illuminate\Http\Request;
 
 class MaintenanceController extends Controller

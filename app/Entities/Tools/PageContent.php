@@ -1,15 +1,15 @@
 <?php
 
-namespace BookStack\Entities\Tools;
+namespace App\Entities\Tools;
 
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Tools\Markdown\MarkdownToHtml;
-use BookStack\Exceptions\ImageUploadException;
-use BookStack\Facades\Theme;
-use BookStack\Theming\ThemeEvents;
-use BookStack\Uploads\ImageRepo;
-use BookStack\Uploads\ImageService;
-use BookStack\Util\HtmlContentFilter;
+use App\Entities\Models\Page;
+use App\Entities\Tools\Markdown\MarkdownToHtml;
+use App\Exceptions\ImageUploadException;
+use App\Facades\Theme;
+use App\Theming\ThemeEvents;
+use App\Uploads\ImageRepo;
+use App\Uploads\ImageService;
+use App\Util\HtmlContentFilter;
 use DOMDocument;
 use DOMElement;
 use DOMNode;

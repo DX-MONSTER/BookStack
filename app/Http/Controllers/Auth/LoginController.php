@@ -1,13 +1,13 @@
 <?php
 
-namespace BookStack\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use BookStack\Auth\Access\LoginService;
-use BookStack\Auth\Access\SocialAuthService;
-use BookStack\Exceptions\LoginAttemptEmailNeededException;
-use BookStack\Exceptions\LoginAttemptException;
-use BookStack\Facades\Activity;
-use BookStack\Http\Controllers\Controller;
+use App\Auth\Access\LoginService;
+use App\Auth\Access\SocialAuthService;
+use App\Exceptions\LoginAttemptEmailNeededException;
+use App\Exceptions\LoginAttemptException;
+use App\Facades\Activity;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

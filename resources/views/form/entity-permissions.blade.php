@@ -1,5 +1,5 @@
 <?php
-  /** @var \BookStack\Auth\Permissions\PermissionFormData $data */
+  /** @var \App\Auth\Permissions\PermissionFormData $data */
 ?>
 <form component="entity-permissions"
       option:entity-permissions:entity-type="{{ $model->getType() }}"
@@ -14,14 +14,14 @@
             <p class="text-muted mb-s">
                 {{ trans('entities.permissions_desc') }}
 
-                @if($model instanceof \BookStack\Entities\Models\Book)
+                @if($model instanceof \App\Entities\Models\Book)
                     <br> {{ trans('entities.permissions_book_cascade') }}
-                @elseif($model instanceof \BookStack\Entities\Models\Chapter)
+                @elseif($model instanceof \App\Entities\Models\Chapter)
                     <br> {{ trans('entities.permissions_chapter_cascade') }}
                 @endif
             </p>
 
-            @if($model instanceof \BookStack\Entities\Models\Bookshelf)
+            @if($model instanceof \App\Entities\Models\Bookshelf)
                 <p class="text-warn">{{ trans('entities.shelves_permissions_cascade_warning') }}</p>
             @endif
         </div>

@@ -2,9 +2,9 @@
 
 namespace Tests\Auth;
 
-use BookStack\Auth\Access\UserInviteService;
-use BookStack\Auth\User;
-use BookStack\Notifications\UserInvite;
+use App\Auth\Access\UserInviteService;
+use App\Auth\User;
+use App\Notifications\UserInvite;
 use Carbon\Carbon;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Support\Facades\DB;
@@ -54,8 +54,8 @@ class UserInviteTest extends TestCase
             /** @var MailMessage $mail */
             $mail = $notification->toMail($notifiable);
 
-            return 'Sie wurden eingeladen BookStack beizutreten!' === $mail->subject &&
-                'Ein Konto wurde für Sie auf BookStack erstellt.' === $mail->greeting;
+            return 'Sie wurden eingeladen App beizutreten!' === $mail->subject &&
+                'Ein Konto wurde für Sie auf App erstellt.' === $mail->greeting;
         });
     }
 
@@ -70,14 +70,14 @@ class UserInviteTest extends TestCase
 
         $setPasswordPageResp = $this->get('/register/invite/' . $token);
         $setPasswordPageResp->assertSuccessful();
-        $setPasswordPageResp->assertSee('Welcome to BookStack!');
+        $setPasswordPageResp->assertSee('Welcome to App!');
         $setPasswordPageResp->assertSee('Password');
         $setPasswordPageResp->assertSee('Confirm Password');
 
         $setPasswordResp = $this->followingRedirects()->post('/register/invite/' . $token, [
             'password' => 'my test password',
         ]);
-        $setPasswordResp->assertSee('Password set, you should now be able to login using your set password to access BookStack!');
+        $setPasswordResp->assertSee('Password set, you should now be able to login using your set password to access App!');
         $newPasswordValid = auth()->validate([
             'email'    => $user->email,
             'password' => 'my test password',

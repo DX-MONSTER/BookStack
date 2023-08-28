@@ -2,9 +2,9 @@
 
 namespace Tests\Entity;
 
-use BookStack\Actions\Tag;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Bookshelf;
+use App\Actions\Tag;
+use App\Entities\Models\Book;
+use App\Entities\Models\Bookshelf;
 use Tests\TestCase;
 
 class EntitySearchTest extends TestCase

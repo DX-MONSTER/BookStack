@@ -2,7 +2,7 @@
 
 namespace Tests\Uploads;
 
-use BookStack\Uploads\Image;
+use App\Uploads\Image;
 use Tests\TestCase;
 
 class DrawioTest extends TestCase

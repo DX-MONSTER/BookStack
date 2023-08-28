@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack;
+namespace App;
 
 class Application extends \Illuminate\Foundation\Application
 {

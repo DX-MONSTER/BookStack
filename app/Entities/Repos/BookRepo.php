@@ -1,15 +1,15 @@
 <?php
 
-namespace BookStack\Entities\Repos;
+namespace App\Entities\Repos;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Actions\TagRepo;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Tools\TrashCan;
-use BookStack\Exceptions\ImageUploadException;
-use BookStack\Exceptions\NotFoundException;
-use BookStack\Facades\Activity;
-use BookStack\Uploads\ImageRepo;
+use App\Actions\ActivityType;
+use App\Actions\TagRepo;
+use App\Entities\Models\Book;
+use App\Entities\Tools\TrashCan;
+use App\Exceptions\ImageUploadException;
+use App\Exceptions\NotFoundException;
+use App\Facades\Activity;
+use App\Uploads\ImageRepo;
 use Exception;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Http\UploadedFile;

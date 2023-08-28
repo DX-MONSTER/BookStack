@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Entities\Tools;
+namespace App\Entities\Tools;
 
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Repos\PageRepo;
-use BookStack\Entities\Tools\Markdown\HtmlToMarkdown;
-use BookStack\Entities\Tools\Markdown\MarkdownToHtml;
+use App\Entities\Models\Page;
+use App\Entities\Repos\PageRepo;
+use App\Entities\Tools\Markdown\HtmlToMarkdown;
+use App\Entities\Tools\Markdown\MarkdownToHtml;
 
 class PageEditorData
 {

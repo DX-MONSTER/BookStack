@@ -2,9 +2,9 @@
 
 namespace Tests\Auth;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Auth\Role;
-use BookStack\Auth\User;
+use App\Actions\ActivityType;
+use App\Auth\Role;
+use App\Auth\User;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use Illuminate\Testing\TestResponse;

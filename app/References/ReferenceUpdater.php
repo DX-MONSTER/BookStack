@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\References;
+namespace App\References;
 
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Repos\RevisionRepo;
+use App\Entities\Models\Book;
+use App\Entities\Models\Entity;
+use App\Entities\Models\Page;
+use App\Entities\Repos\RevisionRepo;
 use DOMDocument;
 use DOMXPath;
 

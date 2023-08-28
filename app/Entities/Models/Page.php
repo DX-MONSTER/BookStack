@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Entities\Models;
+namespace App\Entities\Models;
 
-use BookStack\Auth\Permissions\PermissionApplicator;
-use BookStack\Entities\Tools\PageContent;
-use BookStack\Uploads\Attachment;
+use App\Auth\Permissions\PermissionApplicator;
+use App\Entities\Tools\PageContent;
+use App\Uploads\Attachment;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

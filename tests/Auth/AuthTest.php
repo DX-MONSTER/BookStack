@@ -2,7 +2,7 @@
 
 namespace Tests\Auth;
 
-use BookStack\Auth\Access\Mfa\MfaSession;
+use App\Auth\Access\Mfa\MfaSession;
 use Illuminate\Testing\TestResponse;
 use Tests\TestCase;
 

@@ -1,16 +1,16 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\ActivityQueries;
-use BookStack\Actions\View;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Repos\BookshelfRepo;
-use BookStack\Entities\Tools\ShelfContext;
-use BookStack\Exceptions\ImageUploadException;
-use BookStack\Exceptions\NotFoundException;
-use BookStack\References\ReferenceFetcher;
-use BookStack\Util\SimpleListOptions;
+use App\Actions\ActivityQueries;
+use App\Actions\View;
+use App\Entities\Models\Book;
+use App\Entities\Repos\BookshelfRepo;
+use App\Entities\Tools\ShelfContext;
+use App\Exceptions\ImageUploadException;
+use App\Exceptions\NotFoundException;
+use App\References\ReferenceFetcher;
+use App\Util\SimpleListOptions;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;

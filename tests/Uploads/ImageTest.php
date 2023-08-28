@@ -2,9 +2,9 @@
 
 namespace Tests\Uploads;
 
-use BookStack\Entities\Repos\PageRepo;
-use BookStack\Uploads\Image;
-use BookStack\Uploads\ImageService;
+use App\Entities\Repos\PageRepo;
+use App\Uploads\Image;
+use App\Uploads\ImageService;
 use Illuminate\Support\Str;
 use Tests\TestCase;
 

@@ -1,15 +1,15 @@
 <?php
 
-namespace BookStack\Auth\Access;
+namespace App\Auth\Access;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Auth\Access\Mfa\MfaSession;
-use BookStack\Auth\User;
-use BookStack\Exceptions\LoginAttemptException;
-use BookStack\Exceptions\StoppedAuthenticationException;
-use BookStack\Facades\Activity;
-use BookStack\Facades\Theme;
-use BookStack\Theming\ThemeEvents;
+use App\Actions\ActivityType;
+use App\Auth\Access\Mfa\MfaSession;
+use App\Auth\User;
+use App\Exceptions\LoginAttemptException;
+use App\Exceptions\StoppedAuthenticationException;
+use App\Facades\Activity;
+use App\Facades\Theme;
+use App\Theming\ThemeEvents;
 use Exception;
 
 class LoginService

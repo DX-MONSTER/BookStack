@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Actions;
+namespace App\Actions;
 
-use BookStack\Auth\User;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Models\Page;
-use BookStack\Interfaces\Loggable;
-use BookStack\Model;
+use App\Auth\User;
+use App\Entities\Models\Entity;
+use App\Entities\Models\Page;
+use App\Interfaces\Loggable;
+use App\Model;
 use Illuminate\Support\Carbon;
 
 class WebhookFormatter

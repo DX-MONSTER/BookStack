@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Auth\UserRepo;
-use BookStack\Settings\UserShortcutMap;
+use App\Auth\UserRepo;
+use App\Settings\UserShortcutMap;
 use Illuminate\Http\Request;
 
 class UserPreferencesController extends Controller

@@ -2,9 +2,9 @@
 
 namespace Tests\Actions;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Actions\Webhook;
-use BookStack\Actions\WebhookFormatter;
+use App\Actions\ActivityType;
+use App\Actions\Webhook;
+use App\Actions\WebhookFormatter;
 use Illuminate\Support\Arr;
 use Tests\TestCase;
 

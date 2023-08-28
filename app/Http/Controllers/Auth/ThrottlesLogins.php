@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
 use Illuminate\Cache\RateLimiter;
 use Illuminate\Http\Request;

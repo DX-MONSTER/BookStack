@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Notifications;
+namespace App\Notifications;
 
-use BookStack\Auth\User;
+use App\Auth\User;
 use Illuminate\Notifications\Messages\MailMessage;
 
 class UserInvite extends MailNotification

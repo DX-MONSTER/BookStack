@@ -2,11 +2,11 @@
 
 namespace Tests\User;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Auth\Access\UserInviteService;
-use BookStack\Auth\Role;
-use BookStack\Auth\User;
-use BookStack\Uploads\Image;
+use App\Actions\ActivityType;
+use App\Auth\Access\UserInviteService;
+use App\Auth\Role;
+use App\Auth\User;
+use App\Uploads\Image;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 use Mockery\MockInterface;

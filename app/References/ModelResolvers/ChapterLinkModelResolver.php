@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\References\ModelResolvers;
+namespace App\References\ModelResolvers;
 
-use BookStack\Entities\Models\Chapter;
-use BookStack\Model;
+use App\Entities\Models\Chapter;
+use App\Model;
 
 class ChapterLinkModelResolver implements CrossLinkModelResolver
 {

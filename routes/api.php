@@ -1,24 +1,24 @@
 <?php
 
 /**
- * Routes for the BookStack API.
+ * Routes for the App API.
  * Routes have a uri prefix of /api/.
  * Controllers are all within app/Http/Controllers/Api.
  */
 
-use BookStack\Http\Controllers\Api\ApiDocsController;
-use BookStack\Http\Controllers\Api\AttachmentApiController;
-use BookStack\Http\Controllers\Api\BookApiController;
-use BookStack\Http\Controllers\Api\BookExportApiController;
-use BookStack\Http\Controllers\Api\BookshelfApiController;
-use BookStack\Http\Controllers\Api\ChapterApiController;
-use BookStack\Http\Controllers\Api\ChapterExportApiController;
-use BookStack\Http\Controllers\Api\PageApiController;
-use BookStack\Http\Controllers\Api\PageExportApiController;
-use BookStack\Http\Controllers\Api\RecycleBinApiController;
-use BookStack\Http\Controllers\Api\RoleApiController;
-use BookStack\Http\Controllers\Api\SearchApiController;
-use BookStack\Http\Controllers\Api\UserApiController;
+use App\Http\Controllers\Api\ApiDocsController;
+use App\Http\Controllers\Api\AttachmentApiController;
+use App\Http\Controllers\Api\BookApiController;
+use App\Http\Controllers\Api\BookExportApiController;
+use App\Http\Controllers\Api\BookshelfApiController;
+use App\Http\Controllers\Api\ChapterApiController;
+use App\Http\Controllers\Api\ChapterExportApiController;
+use App\Http\Controllers\Api\PageApiController;
+use App\Http\Controllers\Api\PageExportApiController;
+use App\Http\Controllers\Api\RecycleBinApiController;
+use App\Http\Controllers\Api\RoleApiController;
+use App\Http\Controllers\Api\SearchApiController;
+use App\Http\Controllers\Api\UserApiController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('docs.json', [ApiDocsController::class, 'json']);

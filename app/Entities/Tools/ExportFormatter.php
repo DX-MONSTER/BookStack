@@ -1,13 +1,13 @@
 <?php
 
-namespace BookStack\Entities\Tools;
+namespace App\Entities\Tools;
 
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Tools\Markdown\HtmlToMarkdown;
-use BookStack\Uploads\ImageService;
-use BookStack\Util\CspService;
+use App\Entities\Models\Book;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Page;
+use App\Entities\Tools\Markdown\HtmlToMarkdown;
+use App\Uploads\ImageService;
+use App\Util\CspService;
 use DOMDocument;
 use DOMElement;
 use DOMXPath;

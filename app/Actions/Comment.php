@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Actions;
+namespace App\Actions;
 
-use BookStack\Model;
-use BookStack\Traits\HasCreatorAndUpdater;
+use App\Model;
+use App\Traits\HasCreatorAndUpdater;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 

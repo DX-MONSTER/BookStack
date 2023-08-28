@@ -1,7 +1,7 @@
 <?php
 /**
  * Settings text strings
- * Contains all text strings used in the general settings sections of BookStack
+ * Contains all text strings used in the general settings sections of App
  * including users and roles.
  */
 return [
@@ -20,7 +20,7 @@ return [
     'app_name_desc' => 'Este nome será mostrado no cabeçalho e em e-mails.',
     'app_name_header' => 'Mostrar o nome no cabeçalho',
     'app_public_access' => 'Acesso Público',
-    'app_public_access_desc' => 'Ativar esta opção irá permitir que os visitantes que não estão autenticados, acedam ao conteúdo da sua instância do BookStack.',
+    'app_public_access_desc' => 'Ativar esta opção irá permitir que os visitantes que não estão autenticados, acedam ao conteúdo da sua instância do App.',
     'app_public_access_desc_guest' => 'O acesso de visitantes públicos pode ser controlado através do utilizador "Convidado".',
     'app_public_access_toggle' => 'Permitir acesso público',
     'app_public_viewing' => 'Permitir visualização pública?',
@@ -50,8 +50,8 @@ return [
 
     // Color settings
     'color_scheme' => 'Esquema de cores da aplicação',
-    'color_scheme_desc' => 'Define as cores a serem usadas na interface do BookStack. As cores podem ser configuradas separadamente para modos escuro e claro para melhor se adequar ao tema e garantir a legibilidade.',
-    'ui_colors_desc' => 'Defina a cor primária e a cor padrão do link para o BookStack. A cor primária é usada principalmente para o banner do cabeçalho, botões e decorações da interface. A cor padrão do link é usada para links e ações baseados em texto, tanto no conteúdo escrito quanto na interface do BookStack.',
+    'color_scheme_desc' => 'Define as cores a serem usadas na interface do App. As cores podem ser configuradas separadamente para modos escuro e claro para melhor se adequar ao tema e garantir a legibilidade.',
+    'ui_colors_desc' => 'Defina a cor primária e a cor padrão do link para o App. A cor primária é usada principalmente para o banner do cabeçalho, botões e decorações da interface. A cor padrão do link é usada para links e ações baseados em texto, tanto no conteúdo escrito quanto na interface do App.',
     'app_color' => 'Cor primária',
     'link_color' => 'Cor padrão do link',
     'content_colors_desc' => 'Definir cores para todos os elementos na hierarquia da organização da página. Escolher cores com um brilho semelhante às cores padrão é recomendado para a legibilidade.',

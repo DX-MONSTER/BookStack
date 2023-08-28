@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Http\Controllers\Api;
+namespace App\Http\Controllers\Api;
 
-use BookStack\Entities\Models\Page;
-use BookStack\Exceptions\FileUploadException;
-use BookStack\Uploads\Attachment;
-use BookStack\Uploads\AttachmentService;
+use App\Entities\Models\Page;
+use App\Exceptions\FileUploadException;
+use App\Uploads\Attachment;
+use App\Uploads\AttachmentService;
 use Exception;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Http\Request;

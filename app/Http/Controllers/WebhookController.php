@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Actions\Queries\WebhooksAllPaginatedAndSorted;
-use BookStack\Actions\Webhook;
-use BookStack\Util\SimpleListOptions;
+use App\Actions\ActivityType;
+use App\Actions\Queries\WebhooksAllPaginatedAndSorted;
+use App\Actions\Webhook;
+use App\Util\SimpleListOptions;
 use Illuminate\Http\Request;
 
 class WebhookController extends Controller

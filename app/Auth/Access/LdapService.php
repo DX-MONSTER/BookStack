@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Auth\Access;
+namespace App\Auth\Access;
 
-use BookStack\Auth\User;
-use BookStack\Exceptions\JsonDebugException;
-use BookStack\Exceptions\LdapException;
-use BookStack\Uploads\UserAvatars;
+use App\Auth\User;
+use App\Exceptions\JsonDebugException;
+use App\Exceptions\LdapException;
+use App\Uploads\UserAvatars;
 use ErrorException;
 use Illuminate\Support\Facades\Log;
 

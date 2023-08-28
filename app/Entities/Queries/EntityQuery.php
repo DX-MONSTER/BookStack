@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Entities\Queries;
+namespace App\Entities\Queries;
 
-use BookStack\Auth\Permissions\PermissionApplicator;
-use BookStack\Entities\EntityProvider;
+use App\Auth\Permissions\PermissionApplicator;
+use App\Entities\EntityProvider;
 
 abstract class EntityQuery
 {

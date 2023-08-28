@@ -43,7 +43,7 @@
 <body
     @if(setting()->getForCurrentUser('ui-shortcuts-enabled', false))
         component="shortcuts"
-        option:shortcuts:key-map="{{ \BookStack\Settings\UserShortcutMap::fromUserPreferences()->toJson() }}"
+        option:shortcuts:key-map="{{ \App\Settings\UserShortcutMap::fromUserPreferences()->toJson() }}"
     @endif
       class="@stack('body-class')">
 

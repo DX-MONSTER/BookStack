@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Entities\Tools;
+namespace App\Entities\Tools;
 
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\BookChild;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Models\Page;
+use App\Entities\Models\Book;
+use App\Entities\Models\BookChild;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Entity;
+use App\Entities\Models\Page;
 use Illuminate\Support\Collection;
 
 class BookContents

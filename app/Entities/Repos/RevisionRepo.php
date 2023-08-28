@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Entities\Repos;
+namespace App\Entities\Repos;
 
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Models\PageRevision;
+use App\Entities\Models\Page;
+use App\Entities\Models\PageRevision;
 use Illuminate\Database\Eloquent\Builder;
 
 class RevisionRepo

@@ -1,13 +1,13 @@
 <?php
 
-namespace BookStack\Entities\Repos;
+namespace App\Entities\Repos;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Tools\TrashCan;
-use BookStack\Exceptions\NotFoundException;
-use BookStack\Facades\Activity;
+use App\Actions\ActivityType;
+use App\Entities\Models\Book;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Tools\TrashCan;
+use App\Exceptions\NotFoundException;
+use App\Facades\Activity;
 use Exception;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;

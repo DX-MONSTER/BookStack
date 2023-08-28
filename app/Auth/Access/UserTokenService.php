@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Auth\Access;
+namespace App\Auth\Access;
 
-use BookStack\Auth\User;
-use BookStack\Exceptions\UserTokenExpiredException;
-use BookStack\Exceptions\UserTokenNotFoundException;
+use App\Auth\User;
+use App\Exceptions\UserTokenExpiredException;
+use App\Exceptions\UserTokenNotFoundException;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;

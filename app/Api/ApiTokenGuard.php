@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Api;
+namespace App\Api;
 
-use BookStack\Auth\Access\LoginService;
-use BookStack\Exceptions\ApiAuthException;
+use App\Auth\Access\LoginService;
+use App\Exceptions\ApiAuthException;
 use Illuminate\Auth\GuardHelpers;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Guard;

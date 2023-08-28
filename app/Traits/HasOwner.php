@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Traits;
+namespace App\Traits;
 
-use BookStack\Auth\User;
+use App\Auth\User;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**

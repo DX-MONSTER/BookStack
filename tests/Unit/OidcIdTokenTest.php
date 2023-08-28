@@ -2,8 +2,8 @@
 
 namespace Tests\Unit;
 
-use BookStack\Auth\Access\Oidc\OidcIdToken;
-use BookStack\Auth\Access\Oidc\OidcInvalidTokenException;
+use App\Auth\Access\Oidc\OidcIdToken;
+use App\Auth\Access\Oidc\OidcInvalidTokenException;
 use Tests\Helpers\OidcJwtHelper;
 use Tests\TestCase;
 

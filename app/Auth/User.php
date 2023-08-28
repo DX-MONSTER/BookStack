@@ -1,16 +1,16 @@
 <?php
 
-namespace BookStack\Auth;
+namespace App\Auth;
 
-use BookStack\Actions\Favourite;
-use BookStack\Api\ApiToken;
-use BookStack\Auth\Access\Mfa\MfaValue;
-use BookStack\Entities\Tools\SlugGenerator;
-use BookStack\Interfaces\Loggable;
-use BookStack\Interfaces\Sluggable;
-use BookStack\Model;
-use BookStack\Notifications\ResetPassword;
-use BookStack\Uploads\Image;
+use App\Actions\Favourite;
+use App\Api\ApiToken;
+use App\Auth\Access\Mfa\MfaValue;
+use App\Entities\Tools\SlugGenerator;
+use App\Interfaces\Loggable;
+use App\Interfaces\Sluggable;
+use App\Model;
+use App\Notifications\ResetPassword;
+use App\Uploads\Image;
 use Carbon\Carbon;
 use Exception;
 use Illuminate\Auth\Authenticatable;

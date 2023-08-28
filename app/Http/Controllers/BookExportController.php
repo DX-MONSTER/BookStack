@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Entities\Repos\BookRepo;
-use BookStack\Entities\Tools\ExportFormatter;
+use App\Entities\Repos\BookRepo;
+use App\Entities\Tools\ExportFormatter;
 use Throwable;
 
 class BookExportController extends Controller

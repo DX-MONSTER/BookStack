@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Auth\Access\Mfa\MfaValue;
-use BookStack\Http\Controllers\Controller;
+use App\Actions\ActivityType;
+use App\Auth\Access\Mfa\MfaValue;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class MfaController extends Controller

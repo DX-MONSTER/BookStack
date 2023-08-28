@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\TagRepo;
-use BookStack\Util\SimpleListOptions;
+use App\Actions\TagRepo;
+use App\Util\SimpleListOptions;
 use Illuminate\Http\Request;
 
 class TagController extends Controller

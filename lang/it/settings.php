@@ -1,7 +1,7 @@
 <?php
 /**
  * Settings text strings
- * Contains all text strings used in the general settings sections of BookStack
+ * Contains all text strings used in the general settings sections of App
  * including users and roles.
  */
 return [
@@ -20,7 +20,7 @@ return [
     'app_name_desc' => 'Questo nome è mostrato nell\'header e in tutte le mail.',
     'app_name_header' => 'Mostrare il nome nell\'header',
     'app_public_access' => 'Accesso Pubblico',
-    'app_public_access_desc' => 'Abilitando questa opzione, i visitatori, che non sono loggati, potranno accedere ai contenuti nella tua istanza BookStack.',
+    'app_public_access_desc' => 'Abilitando questa opzione, i visitatori, che non sono loggati, potranno accedere ai contenuti nella tua istanza App.',
     'app_public_access_desc_guest' => 'L\'accesso ai visitatori pubblici può essere controllato attraverso l\'utente "Guest".',
     'app_public_access_toggle' => 'Permetti accesso pubblico',
     'app_public_viewing' => 'Consentire la visione pubblica?',
@@ -50,8 +50,8 @@ return [
 
     // Color settings
     'color_scheme' => 'Schema di colore dell\'applicazione',
-    'color_scheme_desc' => 'Imposta i colori da utilizzare nell\'interfaccia di BookStack. I colori possono essere configurati separatamente per le modalità scura e chiara per adattarsi al meglio al tema e garantire la leggibilità.',
-    'ui_colors_desc' => 'Imposta il colore primario e il colore predefinito dei collegamenti per BookStack. Il colore primario è utilizzato principalmente per il banner dell\'intestazione, i pulsanti e le decorazioni dell\'interfaccia. Il colore predefinito dei link è utilizzato per i link e le azioni basate sul testo, sia all\'interno dei contenuti scritti che nell\'interfaccia di Bookstack.',
+    'color_scheme_desc' => 'Imposta i colori da utilizzare nell\'interfaccia di App. I colori possono essere configurati separatamente per le modalità scura e chiara per adattarsi al meglio al tema e garantire la leggibilità.',
+    'ui_colors_desc' => 'Imposta il colore primario e il colore predefinito dei collegamenti per App. Il colore primario è utilizzato principalmente per il banner dell\'intestazione, i pulsanti e le decorazioni dell\'interfaccia. Il colore predefinito dei link è utilizzato per i link e le azioni basate sul testo, sia all\'interno dei contenuti scritti che nell\'interfaccia di Bookstack.',
     'app_color' => 'Colore Principale',
     'link_color' => 'Colore preferito del link',
     'content_colors_desc' => 'Impostare i colori per tutti gli elementi nella gerarchia dell\'organizzazione della pagina. Si consiglia di scegliere colori con una luminosità simile a quella dei colori predefiniti per garantire la leggibilità.',

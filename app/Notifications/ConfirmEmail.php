@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Notifications;
+namespace App\Notifications;
 
 class ConfirmEmail extends MailNotification
 {

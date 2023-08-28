@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Settings;
+namespace App\Settings;
 
-use BookStack\Auth\User;
+use App\Auth\User;
 
 /**
  * Class SettingService

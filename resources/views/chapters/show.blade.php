@@ -122,7 +122,7 @@
                     <span>{{ trans('common.edit') }}</span>
                 </a>
             @endif
-            @if(userCanOnAny('create', \BookStack\Entities\Models\Book::class) || userCan('chapter-create-all') || userCan('chapter-create-own'))
+            @if(userCanOnAny('create', \App\Entities\Models\Book::class) || userCan('chapter-create-all') || userCan('chapter-create-own'))
                 <a href="{{ $chapter->getUrl('/copy') }}" data-shortcut="copy" class="icon-list-item">
                     <span>@icon('copy')</span>
                     <span>{{ trans('common.copy') }}</span>

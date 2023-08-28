@@ -1,7 +1,7 @@
 <?php
 /**
  * Settings text strings
- * Contains all text strings used in the general settings sections of BookStack
+ * Contains all text strings used in the general settings sections of App
  * including users and roles.
  */
 return [
@@ -20,7 +20,7 @@ return [
     'app_name_desc' => 'Seda nime näidatakse päises ja kõigis süsteemsetes e-kirjades.',
     'app_name_header' => 'Näita nime päises',
     'app_public_access' => 'Avalik ligipääs',
-    'app_public_access_desc' => 'Selle sisselülitamine võimaldab külalistel ilma sisselogimata ligipääsu su BookStack\'i sisule.',
+    'app_public_access_desc' => 'Selle sisselülitamine võimaldab külalistel ilma sisselogimata ligipääsu su App\'i sisule.',
     'app_public_access_desc_guest' => 'Sisselogimata kasutajate ligipääsu saab seadistada "Külaline" kasutaja kaudu.',
     'app_public_access_toggle' => 'Luba avalik ligipääs',
     'app_public_viewing' => 'Luba avalik ligipääs?',
@@ -50,8 +50,8 @@ return [
 
     // Color settings
     'color_scheme' => 'Rakenduse värvid',
-    'color_scheme_desc' => 'Määra BookStack\'i kasutajaliidese värvid. Tumeda ja heleda režiimi värve saab sobivuse ja loetavuse huvides eraldi seadistada.',
-    'ui_colors_desc' => 'Määra BookStack\'i põhivärv ja vaikimisi linkide värv. Põhivärvi kasutatakse peamiselt päise, nuppude ning kasutajaliidese dekoratsioonide jaoks. Vaikimisi linkide värvi kasutatakse tekstipõhiste linkide ja tegevuste jaoks, nii kirjalikus sisus kui BookStack\'i kasutajaliideses.',
+    'color_scheme_desc' => 'Määra App\'i kasutajaliidese värvid. Tumeda ja heleda režiimi värve saab sobivuse ja loetavuse huvides eraldi seadistada.',
+    'ui_colors_desc' => 'Määra App\'i põhivärv ja vaikimisi linkide värv. Põhivärvi kasutatakse peamiselt päise, nuppude ning kasutajaliidese dekoratsioonide jaoks. Vaikimisi linkide värvi kasutatakse tekstipõhiste linkide ja tegevuste jaoks, nii kirjalikus sisus kui App\'i kasutajaliideses.',
     'app_color' => 'Põhivärv',
     'link_color' => 'Vaikimisi linkide värv',
     'content_colors_desc' => 'Määra värvid erinevatele sisuelementidele. Loetavuse huvides on soovituslik valida värvid, mille heledus on sarnane vaikimisi värvidele.',

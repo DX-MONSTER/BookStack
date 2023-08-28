@@ -1,7 +1,7 @@
 <?php
 /**
  * Settings text strings
- * Contains all text strings used in the general settings sections of BookStack
+ * Contains all text strings used in the general settings sections of App
  * including users and roles.
  */
 return [
@@ -20,7 +20,7 @@ return [
     'app_name_desc' => 'Šis vārds tiks rādīts navigācijas joslā un sistēmas sūtītajis e-pastos.',
     'app_name_header' => 'Rādīt vārdu navigācijas joslā',
     'app_public_access' => 'Publiska piekļuve',
-    'app_public_access_desc' => 'Šīs opcijas ieslēgšana ļaus neautorizētiem apmeklētājiem piekļūt jūsu BookStack saturam.',
+    'app_public_access_desc' => 'Šīs opcijas ieslēgšana ļaus neautorizētiem apmeklētājiem piekļūt jūsu App saturam.',
     'app_public_access_desc_guest' => 'Publisku apmeklētāju piekļuvi var kontrolēt "Guest" (Viesa) lietotāja uzstādījumos.',
     'app_public_access_toggle' => 'Atļaut publisku piekļuvi',
     'app_public_viewing' => 'Atļaut publisku piekļuvi?',
@@ -50,8 +50,8 @@ return [
 
     // Color settings
     'color_scheme' => 'Application Color Scheme',
-    'color_scheme_desc' => 'Set the colors to use in the BookStack interface. Colors can be configured separately for dark and light modes to best fit the theme and ensure legibility.',
-    'ui_colors_desc' => 'Set the primary color and default link color for BookStack. The primary color is mainly used for the header banner, buttons and interface decorations. The default link color is used for text-based links and actions, both within written content and in the Bookstack interface.',
+    'color_scheme_desc' => 'Set the colors to use in the App interface. Colors can be configured separately for dark and light modes to best fit the theme and ensure legibility.',
+    'ui_colors_desc' => 'Set the primary color and default link color for App. The primary color is mainly used for the header banner, buttons and interface decorations. The default link color is used for text-based links and actions, both within written content and in the Bookstack interface.',
     'app_color' => 'Primary Color',
     'link_color' => 'Default Link Color',
     'content_colors_desc' => 'Set colors for all elements in the page organisation hierarchy. Choosing colors with a similar brightness to the default colors is recommended for readability.',

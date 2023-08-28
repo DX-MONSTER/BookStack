@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Queries\TopFavourites;
-use BookStack\Interfaces\Favouritable;
-use BookStack\Model;
+use App\Entities\Models\Entity;
+use App\Entities\Queries\TopFavourites;
+use App\Interfaces\Favouritable;
+use App\Model;
 use Illuminate\Http\Request;
 
 class FavouriteController extends Controller

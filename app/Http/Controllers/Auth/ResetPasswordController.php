@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Auth\Access\LoginService;
-use BookStack\Auth\User;
-use BookStack\Http\Controllers\Controller;
+use App\Actions\ActivityType;
+use App\Auth\Access\LoginService;
+use App\Auth\User;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;

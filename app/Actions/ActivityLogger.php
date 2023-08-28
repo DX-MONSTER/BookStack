@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Actions;
+namespace App\Actions;
 
-use BookStack\Entities\Models\Entity;
-use BookStack\Facades\Theme;
-use BookStack\Interfaces\Loggable;
-use BookStack\Theming\ThemeEvents;
+use App\Entities\Models\Entity;
+use App\Facades\Theme;
+use App\Interfaces\Loggable;
+use App\Theming\ThemeEvents;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Log;
 

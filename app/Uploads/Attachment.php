@@ -1,14 +1,14 @@
 <?php
 
-namespace BookStack\Uploads;
+namespace App\Uploads;
 
-use BookStack\Auth\Permissions\JointPermission;
-use BookStack\Auth\Permissions\PermissionApplicator;
-use BookStack\Auth\User;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Models\Page;
-use BookStack\Model;
-use BookStack\Traits\HasCreatorAndUpdater;
+use App\Auth\Permissions\JointPermission;
+use App\Auth\Permissions\PermissionApplicator;
+use App\Auth\User;
+use App\Entities\Models\Entity;
+use App\Entities\Models\Page;
+use App\Model;
+use App\Traits\HasCreatorAndUpdater;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

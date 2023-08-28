@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Console\Commands;
+namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Database\Connection;
@@ -21,7 +21,7 @@ class UpdateUrl extends Command
      *
      * @var string
      */
-    protected $description = 'Find and replace the given URLs in your BookStack database';
+    protected $description = 'Find and replace the given URLs in your App database';
 
     protected $db;
 

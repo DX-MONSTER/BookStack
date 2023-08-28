@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Entities\Repos\PageRepo;
-use BookStack\Exceptions\FileUploadException;
-use BookStack\Exceptions\NotFoundException;
-use BookStack\Uploads\Attachment;
-use BookStack\Uploads\AttachmentService;
+use App\Entities\Repos\PageRepo;
+use App\Exceptions\FileUploadException;
+use App\Exceptions\NotFoundException;
+use App\Uploads\Attachment;
+use App\Uploads\AttachmentService;
 use Exception;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Http\Request;

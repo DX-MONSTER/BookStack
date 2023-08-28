@@ -2,9 +2,9 @@
 
 namespace Tests\Entity;
 
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Models\PageRevision;
-use BookStack\Entities\Repos\PageRepo;
+use App\Entities\Models\Page;
+use App\Entities\Models\PageRevision;
+use App\Entities\Repos\PageRepo;
 use Tests\TestCase;
 
 class PageDraftTest extends TestCase

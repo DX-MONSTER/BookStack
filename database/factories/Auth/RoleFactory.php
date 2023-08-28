@@ -11,7 +11,7 @@ class RoleFactory extends Factory
      *
      * @var string
      */
-    protected $model = \BookStack\Auth\Role::class;
+    protected $model = \App\Auth\Role::class;
 
     /**
      * Define the model's default state.

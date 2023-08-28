@@ -1,6 +1,6 @@
 # Development & Testing
 
-All development on BookStack is currently done on the `development` branch. 
+All development on App is currently done on the `development` branch. 
 When it's time for a release the `development` branch is merged into release with built & minified CSS & JS then tagged at its version. Here are the current development requirements:
 
 * [Node.js](https://nodejs.org/en/) v16.0+
@@ -23,7 +23,7 @@ npm run production
 npm run dev
 ```
 
-BookStack has many integration tests that use Laravel's built-in testing capabilities which makes use of PHPUnit. There is a `mysql_testing` database defined within the app config which is what is used by PHPUnit. This database is set with the database name, username and password all defined as `bookstack-test`. You will have to create that database and that set of credentials before testing.
+App has many integration tests that use Laravel's built-in testing capabilities which makes use of PHPUnit. There is a `mysql_testing` database defined within the app config which is what is used by PHPUnit. This database is set with the database name, username and password all defined as `bookstack-test`. You will have to create that database and that set of credentials before testing.
 
 The testing database will also need migrating and seeding beforehand. This can be done by running `composer refresh-test-database`.
 
@@ -66,7 +66,7 @@ If all the conditions are met, you can proceed with the following steps:
 
 1. **Copy `.env.example` to `.env`**, change `APP_KEY` to a random 32 char string and set `APP_ENV` to `local`.
 2. Make sure **port 8080 is unused** *or else* change `DEV_PORT` to a free port on your host.
-3. **Run `chgrp -R docker storage`**. The development container will chown the `storage` directory to the `www-data` user inside the container so BookStack can write to it. You need to change the group to your host's `docker` group here to not lose access to the `storage` directory.
+3. **Run `chgrp -R docker storage`**. The development container will chown the `storage` directory to the `www-data` user inside the container so App can write to it. You need to change the group to your host's `docker` group here to not lose access to the `storage` directory.
 4. **Run `docker-compose up`** and wait until the image is built and all database migrations have been done.
 5. You can now login with `admin@admin.com` and `password` as password on `localhost:8080` (or another port if specified).
 
@@ -76,7 +76,7 @@ If needed, You'll be able to run any artisan commands via docker-compose like so
 docker-compose run app php artisan list
 ```
 
-The docker-compose setup runs an instance of [MailHog](https://github.com/mailhog/MailHog) and sets environment variables to redirect any BookStack-sent emails to MailHog. You can view this mail via the MailHog web interface on `localhost:8025`. You can change the port MailHog is accessible on by setting a `DEV_MAIL_PORT` environment variable.
+The docker-compose setup runs an instance of [MailHog](https://github.com/mailhog/MailHog) and sets environment variables to redirect any App-sent emails to MailHog. You can view this mail via the MailHog web interface on `localhost:8025`. You can change the port MailHog is accessible on by setting a `DEV_MAIL_PORT` environment variable.
 
 ### Running tests
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Auth\Permissions;
+namespace App\Auth\Permissions;
 
-use BookStack\Entities\Models\Entity;
+use App\Entities\Models\Entity;
 
 class SimpleEntityData
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Entities\Tools;
+namespace App\Entities\Tools;
 
-use BookStack\Entities\EntityProvider;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Page;
+use App\Entities\EntityProvider;
+use App\Entities\Models\Book;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Page;
 use Illuminate\Support\Collection;
 
 class SiblingFetcher

@@ -2,15 +2,15 @@
 
 namespace Tests;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Actions\DispatchWebhookJob;
-use BookStack\Actions\Webhook;
-use BookStack\Auth\User;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Tools\PageContent;
-use BookStack\Facades\Theme;
-use BookStack\Theming\ThemeEvents;
+use App\Actions\ActivityType;
+use App\Actions\DispatchWebhookJob;
+use App\Actions\Webhook;
+use App\Auth\User;
+use App\Entities\Models\Book;
+use App\Entities\Models\Page;
+use App\Entities\Tools\PageContent;
+use App\Facades\Theme;
+use App\Theming\ThemeEvents;
 use Illuminate\Console\Command;
 use Illuminate\Http\Client\Request as HttpClientRequest;
 use Illuminate\Http\Request;
@@ -47,7 +47,7 @@ class ThemeTest extends TestCase
         $this->usingThemeFolder(function ($themeFolder) {
             $functionsFile = theme_path('functions.php');
             app()->alias('cat', 'dog');
-            file_put_contents($functionsFile, "<?php\nTheme::listen(\BookStack\Theming\ThemeEvents::APP_BOOT, function(\$app) { \$app->alias('cat', 'dog');});");
+            file_put_contents($functionsFile, "<?php\nTheme::listen(\App\Theming\ThemeEvents::APP_BOOT, function(\$app) { \$app->alias('cat', 'dog');});");
             $this->runWithEnv('APP_THEME', $themeFolder, function () {
                 $this->assertEquals('cat', $this->app->getAlias('dog'));
             });

@@ -1,14 +1,14 @@
 <?php
 
-namespace BookStack\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Auth\Access\LoginService;
-use BookStack\Auth\Access\Mfa\BackupCodeService;
-use BookStack\Auth\Access\Mfa\MfaSession;
-use BookStack\Auth\Access\Mfa\MfaValue;
-use BookStack\Exceptions\NotFoundException;
-use BookStack\Http\Controllers\Controller;
+use App\Actions\ActivityType;
+use App\Auth\Access\LoginService;
+use App\Auth\Access\Mfa\BackupCodeService;
+use App\Auth\Access\Mfa\MfaSession;
+use App\Auth\Access\Mfa\MfaValue;
+use App\Exceptions\NotFoundException;
+use App\Http\Controllers\Controller;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;

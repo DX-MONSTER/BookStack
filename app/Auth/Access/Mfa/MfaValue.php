@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Auth\Access\Mfa;
+namespace App\Auth\Access\Mfa;
 
-use BookStack\Auth\User;
+use App\Auth\User;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 

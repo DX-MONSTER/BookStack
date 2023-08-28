@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Auth\Access\Oidc;
+namespace App\Auth\Access\Oidc;
 
 use League\OAuth2\Client\Grant\AbstractGrant;
 use League\OAuth2\Client\Provider\AbstractProvider;

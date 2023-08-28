@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Http\Middleware;
+namespace App\Http\Middleware;
 
-use BookStack\Auth\Access\EmailConfirmationService;
-use BookStack\Auth\User;
+use App\Auth\Access\EmailConfirmationService;
+use App\Auth\User;
 use Closure;
 
 /**

@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Http\Controllers\Api;
+namespace App\Http\Controllers\Api;
 
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\BookChild;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Deletion;
-use BookStack\Entities\Repos\DeletionRepo;
+use App\Entities\Models\Book;
+use App\Entities\Models\BookChild;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Deletion;
+use App\Entities\Repos\DeletionRepo;
 use Closure;
 use Illuminate\Database\Eloquent\Builder;
 

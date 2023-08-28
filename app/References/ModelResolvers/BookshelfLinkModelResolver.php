@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\References\ModelResolvers;
+namespace App\References\ModelResolvers;
 
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Model;
+use App\Entities\Models\Bookshelf;
+use App\Model;
 
 class BookshelfLinkModelResolver implements CrossLinkModelResolver
 {

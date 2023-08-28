@@ -1,14 +1,14 @@
 <?php
 
-namespace BookStack\Providers;
+namespace App\Providers;
 
-use BookStack\Api\ApiTokenGuard;
-use BookStack\Auth\Access\ExternalBaseUserProvider;
-use BookStack\Auth\Access\Guards\AsyncExternalBaseSessionGuard;
-use BookStack\Auth\Access\Guards\LdapSessionGuard;
-use BookStack\Auth\Access\LdapService;
-use BookStack\Auth\Access\LoginService;
-use BookStack\Auth\Access\RegistrationService;
+use App\Api\ApiTokenGuard;
+use App\Auth\Access\ExternalBaseUserProvider;
+use App\Auth\Access\Guards\AsyncExternalBaseSessionGuard;
+use App\Auth\Access\Guards\LdapSessionGuard;
+use App\Auth\Access\LdapService;
+use App\Auth\Access\LoginService;
+use App\Auth\Access\RegistrationService;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Validation\Rules\Password;

@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Actions;
+namespace App\Actions;
 
-use BookStack\Auth\Permissions\PermissionApplicator;
-use BookStack\Entities\Models\Entity;
-use BookStack\Util\SimpleListOptions;
+use App\Auth\Permissions\PermissionApplicator;
+use App\Entities\Models\Entity;
+use App\Util\SimpleListOptions;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;

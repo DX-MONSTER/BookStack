@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Search;
+namespace App\Search;
 
-use BookStack\Actions\Tag;
-use BookStack\Entities\EntityProvider;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Models\Page;
+use App\Actions\Tag;
+use App\Entities\EntityProvider;
+use App\Entities\Models\Entity;
+use App\Entities\Models\Page;
 use DOMDocument;
 use DOMNode;
 use Illuminate\Database\Eloquent\Builder;

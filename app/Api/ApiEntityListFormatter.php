@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Api;
+namespace App\Api;
 
-use BookStack\Entities\Models\Entity;
+use App\Entities\Models\Entity;
 
 class ApiEntityListFormatter
 {

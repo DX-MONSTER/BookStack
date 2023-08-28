@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Auth\Access;
+namespace App\Auth\Access;
 
-use BookStack\Auth\Role;
-use BookStack\Auth\User;
+use App\Auth\Role;
+use App\Auth\User;
 use Illuminate\Support\Collection;
 
 class GroupSyncService
@@ -50,7 +50,7 @@ class GroupSyncService
     }
 
     /**
-     * Match an array of group names to BookStack system roles.
+     * Match an array of group names to App system roles.
      * Formats group names to be lower-case and hyphenated.
      */
     protected function matchGroupsToSystemsRoles(array $groupNames): Collection

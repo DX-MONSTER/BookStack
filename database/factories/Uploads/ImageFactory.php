@@ -11,7 +11,7 @@ class ImageFactory extends Factory
      *
      * @var string
      */
-    protected $model = \BookStack\Uploads\Image::class;
+    protected $model = \App\Uploads\Image::class;
 
     /**
      * Define the model's default state.

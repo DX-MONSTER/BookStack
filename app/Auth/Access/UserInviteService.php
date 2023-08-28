@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Auth\Access;
+namespace App\Auth\Access;
 
-use BookStack\Auth\User;
-use BookStack\Notifications\UserInvite;
+use App\Auth\User;
+use App\Notifications\UserInvite;
 
 class UserInviteService extends UserTokenService
 {
@@ -11,7 +11,7 @@ class UserInviteService extends UserTokenService
     protected $expiryTime = 336; // Two weeks
 
     /**
-     * Send an invitation to a user to sign into BookStack
+     * Send an invitation to a user to sign into App
      * Removes existing invitation tokens.
      *
      * @param User $user

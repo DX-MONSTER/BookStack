@@ -1,14 +1,14 @@
 <?php
 
-namespace BookStack\Auth\Permissions;
+namespace App\Auth\Permissions;
 
-use BookStack\Auth\Role;
-use BookStack\Auth\User;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Models\Page;
-use BookStack\Model;
-use BookStack\Traits\HasCreatorAndUpdater;
-use BookStack\Traits\HasOwner;
+use App\Auth\Role;
+use App\Auth\User;
+use App\Entities\Models\Entity;
+use App\Entities\Models\Page;
+use App\Model;
+use App\Traits\HasCreatorAndUpdater;
+use App\Traits\HasOwner;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Query\Builder as QueryBuilder;
 use InvalidArgumentException;

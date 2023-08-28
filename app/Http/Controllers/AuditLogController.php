@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\Activity;
-use BookStack\Actions\ActivityType;
-use BookStack\Util\SimpleListOptions;
+use App\Actions\Activity;
+use App\Actions\ActivityType;
+use App\Util\SimpleListOptions;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 

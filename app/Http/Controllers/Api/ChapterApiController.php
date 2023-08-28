@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Http\Controllers\Api;
+namespace App\Http\Controllers\Api;
 
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Repos\ChapterRepo;
+use App\Entities\Models\Book;
+use App\Entities\Models\Chapter;
+use App\Entities\Repos\ChapterRepo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Http\Request;
 

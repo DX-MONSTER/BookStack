@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Entities\Tools\Markdown;
+namespace App\Entities\Tools\Markdown;
 
 use League\CommonMark\Extension\Strikethrough\Strikethrough;
 use League\CommonMark\Node\Node;

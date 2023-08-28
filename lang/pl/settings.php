@@ -1,7 +1,7 @@
 <?php
 /**
  * Settings text strings
- * Contains all text strings used in the general settings sections of BookStack
+ * Contains all text strings used in the general settings sections of App
  * including users and roles.
  */
 return [
@@ -20,7 +20,7 @@ return [
     'app_name_desc' => 'Ta nazwa jest wyświetlana w nagłówku i e-mailach.',
     'app_name_header' => 'Pokaż nazwę aplikacji w nagłówku',
     'app_public_access' => 'Dostęp publiczny',
-    'app_public_access_desc' => 'Włączenie tej opcji umożliwi niezalogowanym odwiedzającym dostęp do treści w Twojej instancji BookStack.',
+    'app_public_access_desc' => 'Włączenie tej opcji umożliwi niezalogowanym odwiedzającym dostęp do treści w Twojej instancji App.',
     'app_public_access_desc_guest' => 'Dostęp dla niezalogowanych odwiedzających jest dostępny poprzez użytkownika "Guest".',
     'app_public_access_toggle' => 'Zezwalaj na dostęp publiczny',
     'app_public_viewing' => 'Zezwolić na publiczne przeglądanie?',
@@ -50,8 +50,8 @@ return [
 
     // Color settings
     'color_scheme' => 'Schemat kolorów aplikacji',
-    'color_scheme_desc' => 'Ustaw kolory użyte w interfejsie BookStack\'a. Kolory można skonfigurować oddzielnie dla trybu ciemnego i jasnego, aby jak najlepiej pasowały do motywu i zapewniały czytelność.',
-    'ui_colors_desc' => 'Ustaw kolor podstawowy i domyślny kolor linku dla BookStack\'a. Podstawowy kolor jest używany głównie do głównego baneru, przycisków i dekoracji interfejsu. Domyślny kolor linku jest używany dla tekstowych linków i akcji, zarówno w napisanej treści, jak i w interfejsie Bookstack\'a.',
+    'color_scheme_desc' => 'Ustaw kolory użyte w interfejsie App\'a. Kolory można skonfigurować oddzielnie dla trybu ciemnego i jasnego, aby jak najlepiej pasowały do motywu i zapewniały czytelność.',
+    'ui_colors_desc' => 'Ustaw kolor podstawowy i domyślny kolor linku dla App\'a. Podstawowy kolor jest używany głównie do głównego baneru, przycisków i dekoracji interfejsu. Domyślny kolor linku jest używany dla tekstowych linków i akcji, zarówno w napisanej treści, jak i w interfejsie Bookstack\'a.',
     'app_color' => 'Kolor podstawowy',
     'link_color' => 'Domyślny kolor linku',
     'content_colors_desc' => 'Ustaw kolory dla wszystkich elementów w hierarchii organizacji stron. Wybór kolorów o jasności podobnej do domyślnych kolorów jest zalecany dla czytelności.',

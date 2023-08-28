@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Auth\User;
-use BookStack\Settings\AppSettingsStore;
-use BookStack\Uploads\ImageRepo;
+use App\Actions\ActivityType;
+use App\Auth\User;
+use App\Settings\AppSettingsStore;
+use App\Uploads\ImageRepo;
 use Illuminate\Http\Request;
 
 class SettingController extends Controller

@@ -11,7 +11,7 @@ class TagFactory extends Factory
      *
      * @var string
      */
-    protected $model = \BookStack\Actions\Tag::class;
+    protected $model = \App\Actions\Tag::class;
 
     /**
      * Define the model's default state.

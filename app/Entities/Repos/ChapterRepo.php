@@ -1,17 +1,17 @@
 <?php
 
-namespace BookStack\Entities\Repos;
+namespace App\Entities\Repos;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Tools\BookContents;
-use BookStack\Entities\Tools\TrashCan;
-use BookStack\Exceptions\MoveOperationException;
-use BookStack\Exceptions\NotFoundException;
-use BookStack\Exceptions\PermissionsException;
-use BookStack\Facades\Activity;
+use App\Actions\ActivityType;
+use App\Entities\Models\Book;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Entity;
+use App\Entities\Tools\BookContents;
+use App\Entities\Tools\TrashCan;
+use App\Exceptions\MoveOperationException;
+use App\Exceptions\NotFoundException;
+use App\Exceptions\PermissionsException;
+use App\Facades\Activity;
 use Exception;
 
 class ChapterRepo

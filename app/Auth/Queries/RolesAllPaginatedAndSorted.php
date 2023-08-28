@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Auth\Queries;
+namespace App\Auth\Queries;
 
-use BookStack\Auth\Role;
-use BookStack\Util\SimpleListOptions;
+use App\Auth\Role;
+use App\Util\SimpleListOptions;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 /**

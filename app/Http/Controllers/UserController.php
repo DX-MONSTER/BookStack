@@ -1,15 +1,15 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Auth\Access\SocialAuthService;
-use BookStack\Auth\Queries\UsersAllPaginatedAndSorted;
-use BookStack\Auth\Role;
-use BookStack\Auth\UserRepo;
-use BookStack\Exceptions\ImageUploadException;
-use BookStack\Exceptions\UserUpdateException;
-use BookStack\Uploads\ImageRepo;
-use BookStack\Util\SimpleListOptions;
+use App\Auth\Access\SocialAuthService;
+use App\Auth\Queries\UsersAllPaginatedAndSorted;
+use App\Auth\Role;
+use App\Auth\UserRepo;
+use App\Exceptions\ImageUploadException;
+use App\Exceptions\UserUpdateException;
+use App\Uploads\ImageRepo;
+use App\Util\SimpleListOptions;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

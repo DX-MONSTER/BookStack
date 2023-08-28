@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Util;
+namespace App\Util;
 
 use Illuminate\Support\Str;
 
@@ -80,7 +80,7 @@ class CspService
     }
 
     /**
-     * Create CSP "frame-ancestors" rule to restrict the hosts that BookStack can be iframed within.
+     * Create CSP "frame-ancestors" rule to restrict the hosts that App can be iframed within.
      */
     protected function getFrameAncestors(): string
     {

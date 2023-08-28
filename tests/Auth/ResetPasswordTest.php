@@ -2,8 +2,8 @@
 
 namespace Tests\Auth;
 
-use BookStack\Auth\User;
-use BookStack\Notifications\ResetPassword;
+use App\Auth\User;
+use App\Notifications\ResetPassword;
 use Illuminate\Support\Facades\Notification;
 use Tests\TestCase;
 

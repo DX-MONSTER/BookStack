@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Http\Controllers\Api;
+namespace App\Http\Controllers\Api;
 
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Repos\PageRepo;
-use BookStack\Exceptions\PermissionsException;
+use App\Entities\Models\Book;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Page;
+use App\Entities\Repos\PageRepo;
+use App\Exceptions\PermissionsException;
 use Exception;
 use Illuminate\Http\Request;
 
@@ -60,7 +60,7 @@ class PageApiController extends ApiController
      * where this page should be located.
      *
      * Any HTML content provided should be kept to a single-block depth of plain HTML
-     * elements to remain compatible with the BookStack front-end and editors.
+     * elements to remain compatible with the App front-end and editors.
      * Any images included via base64 data URIs will be extracted and saved as gallery
      * images against the page during upload.
      */

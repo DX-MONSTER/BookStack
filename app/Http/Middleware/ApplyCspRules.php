@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Http\Middleware;
+namespace App\Http\Middleware;
 
-use BookStack\Util\CspService;
+use App\Util\CspService;
 use Closure;
 use Illuminate\Http\Request;
 

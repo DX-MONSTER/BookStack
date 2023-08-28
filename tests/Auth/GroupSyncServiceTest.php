@@ -2,9 +2,9 @@
 
 namespace Tests\Auth;
 
-use BookStack\Auth\Access\GroupSyncService;
-use BookStack\Auth\Role;
-use BookStack\Auth\User;
+use App\Auth\Access\GroupSyncService;
+use App\Auth\Role;
+use App\Auth\User;
 use Tests\TestCase;
 
 class GroupSyncServiceTest extends TestCase

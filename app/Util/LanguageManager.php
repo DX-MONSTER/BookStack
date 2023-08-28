@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Util;
+namespace App\Util;
 
 use Illuminate\Http\Request;
 
@@ -12,7 +12,7 @@ class LanguageManager
     protected array $rtlLanguages = ['ar', 'fa', 'he'];
 
     /**
-     * Map of BookStack language names to best-estimate ISO and windows locale names.
+     * Map of App language names to best-estimate ISO and windows locale names.
      * Locales can often be found by running `locale -a` on a linux system.
      * Windows locales can be found at:
      * https://docs.microsoft.com/en-us/cpp/c-runtime-library/language-strings?view=msvc-170.
@@ -81,7 +81,7 @@ class LanguageManager
     }
 
     /**
-     * Check if the given BookStack language value is a right-to-left language.
+     * Check if the given App language value is a right-to-left language.
      */
     public function isRTL(string $language): bool
     {
@@ -90,7 +90,7 @@ class LanguageManager
 
     /**
      * Autodetect the visitors locale by matching locales in their headers
-     * against the locales supported by BookStack.
+     * against the locales supported by App.
      */
     protected function autoDetectLocale(Request $request, string $default): string
     {
@@ -105,7 +105,7 @@ class LanguageManager
     }
 
     /**
-     * Get the ISO version of a BookStack language name.
+     * Get the ISO version of a App language name.
      */
     public function getIsoName(string $language): string
     {

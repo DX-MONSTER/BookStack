@@ -2,9 +2,9 @@
 
 namespace Tests\Settings;
 
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Deletion;
-use BookStack\Entities\Models\Page;
+use App\Entities\Models\Book;
+use App\Entities\Models\Deletion;
+use App\Entities\Models\Page;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
 use Tests\TestCase;

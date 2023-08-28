@@ -1,13 +1,13 @@
 <?php
 
-namespace BookStack\Entities\Repos;
+namespace App\Entities\Repos;
 
-use BookStack\Actions\TagRepo;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Models\HasCoverImage;
-use BookStack\Exceptions\ImageUploadException;
-use BookStack\References\ReferenceUpdater;
-use BookStack\Uploads\ImageRepo;
+use App\Actions\TagRepo;
+use App\Entities\Models\Entity;
+use App\Entities\Models\HasCoverImage;
+use App\Exceptions\ImageUploadException;
+use App\References\ReferenceUpdater;
+use App\Uploads\ImageRepo;
 use Illuminate\Http\UploadedFile;
 
 class BaseRepo

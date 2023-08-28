@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Http\Controllers\Api;
+namespace App\Http\Controllers\Api;
 
-use BookStack\Auth\User;
-use BookStack\Auth\UserRepo;
-use BookStack\Exceptions\UserUpdateException;
+use App\Auth\User;
+use App\Auth\UserRepo;
+use App\Exceptions\UserUpdateException;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

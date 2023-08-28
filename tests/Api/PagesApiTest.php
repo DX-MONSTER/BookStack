@@ -2,8 +2,8 @@
 
 namespace Tests\Api;
 
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Page;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Page;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 use Tests\TestCase;

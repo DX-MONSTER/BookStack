@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Console\Commands;
+namespace App\Console\Commands;
 
-use BookStack\Actions\Activity;
+use App\Actions\Activity;
 use Illuminate\Console\Command;
 
 class ClearActivity extends Command

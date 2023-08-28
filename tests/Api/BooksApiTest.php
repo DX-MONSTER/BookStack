@@ -2,7 +2,7 @@
 
 namespace Tests\Api;
 
-use BookStack\Entities\Models\Book;
+use App\Entities\Models\Book;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 use Tests\TestCase;

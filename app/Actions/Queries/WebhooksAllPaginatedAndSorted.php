@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Actions\Queries;
+namespace App\Actions\Queries;
 
-use BookStack\Actions\Webhook;
-use BookStack\Util\SimpleListOptions;
+use App\Actions\Webhook;
+use App\Util\SimpleListOptions;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 /**

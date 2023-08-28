@@ -1,21 +1,21 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\ActivityQueries;
-use BookStack\Actions\ActivityType;
-use BookStack\Actions\View;
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Repos\BookRepo;
-use BookStack\Entities\Tools\BookContents;
-use BookStack\Entities\Tools\Cloner;
-use BookStack\Entities\Tools\HierarchyTransformer;
-use BookStack\Entities\Tools\ShelfContext;
-use BookStack\Exceptions\ImageUploadException;
-use BookStack\Exceptions\NotFoundException;
-use BookStack\Facades\Activity;
-use BookStack\References\ReferenceFetcher;
-use BookStack\Util\SimpleListOptions;
+use App\Actions\ActivityQueries;
+use App\Actions\ActivityType;
+use App\Actions\View;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Repos\BookRepo;
+use App\Entities\Tools\BookContents;
+use App\Entities\Tools\Cloner;
+use App\Entities\Tools\HierarchyTransformer;
+use App\Entities\Tools\ShelfContext;
+use App\Exceptions\ImageUploadException;
+use App\Exceptions\NotFoundException;
+use App\Facades\Activity;
+use App\References\ReferenceFetcher;
+use App\Util\SimpleListOptions;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
 use Throwable;

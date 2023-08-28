@@ -1,19 +1,19 @@
 <?php
 
-namespace BookStack\Entities\Tools;
+namespace App\Entities\Tools;
 
-use BookStack\Entities\EntityProvider;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Deletion;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Models\HasCoverImage;
-use BookStack\Entities\Models\Page;
-use BookStack\Exceptions\NotifyException;
-use BookStack\Facades\Activity;
-use BookStack\Uploads\AttachmentService;
-use BookStack\Uploads\ImageService;
+use App\Entities\EntityProvider;
+use App\Entities\Models\Book;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Deletion;
+use App\Entities\Models\Entity;
+use App\Entities\Models\HasCoverImage;
+use App\Entities\Models\Page;
+use App\Exceptions\NotifyException;
+use App\Facades\Activity;
+use App\Uploads\AttachmentService;
+use App\Uploads\ImageService;
 use Exception;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;

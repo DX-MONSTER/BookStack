@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Auth\Access;
+namespace App\Auth\Access;
 
 /**
  * Class Ldap

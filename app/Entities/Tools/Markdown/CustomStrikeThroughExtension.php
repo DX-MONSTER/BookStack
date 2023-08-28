@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Entities\Tools\Markdown;
+namespace App\Entities\Tools\Markdown;
 
 use League\CommonMark\Environment\EnvironmentBuilderInterface;
 use League\CommonMark\Extension\ExtensionInterface;

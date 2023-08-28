@@ -2,10 +2,10 @@
 
 namespace Tests\Uploads;
 
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Repos\PageRepo;
-use BookStack\Entities\Tools\TrashCan;
-use BookStack\Uploads\Attachment;
+use App\Entities\Models\Page;
+use App\Entities\Repos\PageRepo;
+use App\Entities\Tools\TrashCan;
+use App\Uploads\Attachment;
 use Tests\TestCase;
 
 class AttachmentTest extends TestCase

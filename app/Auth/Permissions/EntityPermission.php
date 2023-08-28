@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Auth\Permissions;
+namespace App\Auth\Permissions;
 
-use BookStack\Auth\Role;
-use BookStack\Model;
+use App\Auth\Role;
+use App\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 

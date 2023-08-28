@@ -2,7 +2,7 @@
 
 namespace Tests\Commands;
 
-use BookStack\Auth\User;
+use App\Auth\User;
 use Illuminate\Support\Facades\Auth;
 use Tests\TestCase;
 

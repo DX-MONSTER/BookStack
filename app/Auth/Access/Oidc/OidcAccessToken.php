@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Auth\Access\Oidc;
+namespace App\Auth\Access\Oidc;
 
 use InvalidArgumentException;
 use League\OAuth2\Client\Token\AccessToken;

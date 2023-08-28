@@ -2,12 +2,12 @@
 
 namespace Tests\Entity;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Actions\Tag;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Page;
+use App\Actions\ActivityType;
+use App\Actions\Tag;
+use App\Entities\Models\Book;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Page;
 use Tests\TestCase;
 
 class ConvertTest extends TestCase

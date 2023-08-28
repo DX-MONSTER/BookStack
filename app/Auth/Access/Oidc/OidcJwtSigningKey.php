@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Auth\Access\Oidc;
+namespace App\Auth\Access\Oidc;
 
 use phpseclib3\Crypt\Common\PublicKey;
 use phpseclib3\Crypt\PublicKeyLoader;

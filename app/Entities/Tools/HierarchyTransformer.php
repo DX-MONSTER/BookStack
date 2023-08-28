@@ -1,15 +1,15 @@
 <?php
 
-namespace BookStack\Entities\Tools;
+namespace App\Entities\Tools;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Repos\BookRepo;
-use BookStack\Entities\Repos\BookshelfRepo;
-use BookStack\Facades\Activity;
+use App\Actions\ActivityType;
+use App\Entities\Models\Book;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Page;
+use App\Entities\Repos\BookRepo;
+use App\Entities\Repos\BookshelfRepo;
+use App\Facades\Activity;
 
 class HierarchyTransformer
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\References\ModelResolvers;
+namespace App\References\ModelResolvers;
 
-use BookStack\Model;
+use App\Model;
 
 interface CrossLinkModelResolver
 {

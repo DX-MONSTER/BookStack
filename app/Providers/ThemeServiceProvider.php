@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Providers;
+namespace App\Providers;
 
-use BookStack\Theming\ThemeEvents;
-use BookStack\Theming\ThemeService;
+use App\Theming\ThemeEvents;
+use App\Theming\ThemeService;
 use Illuminate\Support\ServiceProvider;
 
 class ThemeServiceProvider extends ServiceProvider

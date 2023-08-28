@@ -1,51 +1,51 @@
-# BookStack
+# App
 
-[![GitHub release](https://img.shields.io/github/release/BookStackApp/BookStack.svg)](https://github.com/BookStackApp/BookStack/releases/latest)
-[![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/BookStackApp/BookStack/blob/development/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/AppApp/App.svg)](https://github.com/AppApp/App/releases/latest)
+[![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/AppApp/App/blob/development/LICENSE)
 [![Crowdin](https://badges.crowdin.net/bookstack/localized.svg)](https://crowdin.com/project/bookstack)
-[![Build Status](https://github.com/BookStackApp/BookStack/workflows/test-php/badge.svg)](https://github.com/BookStackApp/BookStack/actions)
-[![Lint Status](https://github.com/BookStackApp/BookStack/workflows/lint-php/badge.svg)](https://github.com/BookStackApp/BookStack/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/5551731994dd22fa1f4f/maintainability)](https://codeclimate.com/github/BookStackApp/BookStack/maintainability)
+[![Build Status](https://github.com/AppApp/App/workflows/test-php/badge.svg)](https://github.com/AppApp/App/actions)
+[![Lint Status](https://github.com/AppApp/App/workflows/lint-php/badge.svg)](https://github.com/AppApp/App/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5551731994dd22fa1f4f/maintainability)](https://codeclimate.com/github/AppApp/App/maintainability)
 
 [![Repo Stats](https://img.shields.io/static/v1?label=GitHub+project&message=stats&color=f27e3f)](https://gh-stats.bookstackapp.com/)
 [![Discord](https://img.shields.io/static/v1?label=Discord&message=chat&color=738adb&logo=discord)](https://discord.gg/ztkBqR2)
 [![Twitter](https://img.shields.io/static/v1?label=Twitter&message=@bookstack_app&color=1d9bf0&logo=twitter)](https://twitter.com/bookstack_app)
 [![YouTube](https://img.shields.io/static/v1?label=YouTube&message=bookstackapp&color=ff0000&logo=youtube)](https://www.youtube.com/bookstackapp)
 
-A platform for storing and organising information and documentation. Details for BookStack can be found on the official website at https://www.bookstackapp.com/.
+A platform for storing and organising information and documentation. Details for App can be found on the official website at https://www.bookstackapp.com/.
 
 * [Installation Instructions](https://www.bookstackapp.com/docs/admin/installation)
 * [Documentation](https://www.bookstackapp.com/docs)
 * [Demo Instance](https://demo.bookstackapp.com)
     * [Admin Login](https://demo.bookstackapp.com/login?email=admin@example.com&password=password)
 * [Screenshots](https://www.bookstackapp.com/#screenshots) 
-* [BookStack Blog](https://www.bookstackapp.com/blog)
-* [Issue List](https://github.com/BookStackApp/BookStack/issues)
+* [App Blog](https://www.bookstackapp.com/blog)
+* [Issue List](https://github.com/AppApp/App/issues)
 * [Discord Chat](https://discord.gg/ztkBqR2)
 
 ## 📚 Project Definition
 
-BookStack is an opinionated wiki system that provides a pleasant and simple out-of-the-box experience. New users to an instance should find the experience intuitive and only basic word-processing skills should be required to get involved in creating content on BookStack. The platform should provide advanced power features to those that desire it but they should not interfere with the core simple user experience.
+App is an opinionated wiki system that provides a pleasant and simple out-of-the-box experience. New users to an instance should find the experience intuitive and only basic word-processing skills should be required to get involved in creating content on App. The platform should provide advanced power features to those that desire it but they should not interfere with the core simple user experience.
 
-BookStack is not designed as an extensible platform to be used for purposes that differ to the statement above.
+App is not designed as an extensible platform to be used for purposes that differ to the statement above.
 
-In regard to development philosophy, BookStack has a relaxed, open & positive approach. At the end of the day this is free software developed and maintained by people donating their own free time.
+In regard to development philosophy, App has a relaxed, open & positive approach. At the end of the day this is free software developed and maintained by people donating their own free time.
 
 ## 🌟 Project Sponsors
 
 Shown below are our bronze, silver and gold project sponsors.
 Big thanks to these companies for supporting the project.
-Note: Listed services are not tested, vetted nor supported by the official BookStack project in any manner.
+Note: Listed services are not tested, vetted nor supported by the official App project in any manner.
 [View all sponsors](https://github.com/sponsors/ssddanbrown).
 
 #### Silver Sponsors
 
 <table><tbody><tr>
 <td><a href="https://www.diagrams.net/" target="_blank">
-    <img width="400" src="https://media.githubusercontent.com/media/BookStackApp/website/main/static/images/sponsors/diagramsnet.png" alt="Diagrams.net">
+    <img width="400" src="https://media.githubusercontent.com/media/AppApp/website/main/static/images/sponsors/diagramsnet.png" alt="Diagrams.net">
 </a></td>
 <td><a href="https://cloudabove.com/hosting" target="_blank">
-    <img height="100" src="https://media.githubusercontent.com/media/BookStackApp/website/main/static/images/sponsors/cloudabove.png" alt="Cloudabove">
+    <img height="100" src="https://media.githubusercontent.com/media/AppApp/website/main/static/images/sponsors/cloudabove.png" alt="Cloudabove">
 </a></td>
 </tr></tbody></table>
 
@@ -53,19 +53,19 @@ Note: Listed services are not tested, vetted nor supported by the official BookS
 
 <table><tbody><tr>
 <td><a href="https://www.stellarhosted.com/bookstack/" target="_blank">
-    <img width="240" src="https://media.githubusercontent.com/media/BookStackApp/website/main/static/images/sponsors/stellarhosted.png" alt="Stellar Hosted">
+    <img width="240" src="https://media.githubusercontent.com/media/AppApp/website/main/static/images/sponsors/stellarhosted.png" alt="Stellar Hosted">
 </a></td>
 <td><a href="https://www.practicali.be" target="_blank">
-    <img width="240" src="https://media.githubusercontent.com/media/BookStackApp/website/main/static/images/sponsors/practicali.png" alt="Practicali">
+    <img width="240" src="https://media.githubusercontent.com/media/AppApp/website/main/static/images/sponsors/practicali.png" alt="Practicali">
 </a></td>
 <td><a href="https://torutec.com/" target="_blank">
-    <img width="240" src="https://media.githubusercontent.com/media/BookStackApp/website/main/static/images/sponsors/torutec.png" alt="Torutec">
+    <img width="240" src="https://media.githubusercontent.com/media/AppApp/website/main/static/images/sponsors/torutec.png" alt="Torutec">
 </a></td>
 </tr></tbody></table>
 
 ## 🛣️ Road Map
 
-Below is a high-level road map view for BookStack to provide a sense of direction of where the project is going. This can change at any point and does not reflect many features and improvements that will also be included as part of the journey along this road map. For more granular detail of what will be included in upcoming releases you can review the project milestones as defined in our [Release Process](dev/docs/release-process.md) documentation.
+Below is a high-level road map view for App to provide a sense of direction of where the project is going. This can change at any point and does not reflect many features and improvements that will also be included as part of the journey along this road map. For more granular detail of what will be included in upcoming releases you can review the project milestones as defined in our [Release Process](dev/docs/release-process.md) documentation.
 
 - **Platform REST API** - *(Most actions implemented, maturing)*
     - *A REST API covering, at minimum, control of core content models (Books, Chapters, Pages) for automation and platform extension.*
@@ -74,19 +74,19 @@ Below is a high-level road map view for BookStack to provide a sense of directio
 
 ## 🛠️ Development & Testing
 
-Please see our [development docs](dev/docs/development.md) for full details regarding work on the BookStack source code.
+Please see our [development docs](dev/docs/development.md) for full details regarding work on the App source code.
 
-If you're just looking to customize or extend your own BookStack instance, take a look at our [Hacking BookStack documentation page](https://www.bookstackapp.com/docs/admin/hacking-bookstack/) for details on various options to achieve this without altering the BookStack source code.
+If you're just looking to customize or extend your own App instance, take a look at our [Hacking App documentation page](https://www.bookstackapp.com/docs/admin/hacking-bookstack/) for details on various options to achieve this without altering the App source code.
 
-Details about BookStack's versioning scheme and the general release process [can be found here](dev/docs/release-process.md).
+Details about App's versioning scheme and the general release process [can be found here](dev/docs/release-process.md).
 
 ## 🌎 Translations
 
-Translations for text within BookStack is managed through the [BookStack project on Crowdin](https://crowdin.com/project/bookstack). Some strings have colon-prefixed variables such as `:userName`. Leave these values as they are as they will be replaced at run-time. Crowdin is the preferred way to provide translations, otherwise the raw translations files can be found within the `resources/lang` path.
+Translations for text within App is managed through the [App project on Crowdin](https://crowdin.com/project/bookstack). Some strings have colon-prefixed variables such as `:userName`. Leave these values as they are as they will be replaced at run-time. Crowdin is the preferred way to provide translations, otherwise the raw translations files can be found within the `resources/lang` path.
 
-If you'd like a new language to be added to Crowdin, for you to be able to provide translations for, please [open a new issue here](https://github.com/BookStackApp/BookStack/issues/new?template=language_request.yml).
+If you'd like a new language to be added to Crowdin, for you to be able to provide translations for, please [open a new issue here](https://github.com/AppApp/App/issues/new?template=language_request.yml).
 
-Please note, translations in BookStack are provided to the "Crowdin Global Translation Memory" which helps BookStack and other projects with finding translations. If you are not happy with contributing to this then providing translations to BookStack, even manually via GitHub, is not advised.
+Please note, translations in App are provided to the "Crowdin Global Translation Memory" which helps App and other projects with finding translations. If you are not happy with contributing to this then providing translations to App, even manually via GitHub, is not advised.
 
 ## 🎁 Contributing, Issues & Pull Requests
 
@@ -96,37 +96,37 @@ Pull requests are welcome. Unless a small tweak or language update, It may be be
 
 Pull requests should be created from the `development` branch since they will be merged back into `development` once done. Please do not build from or request a merge into the `release` branch as this is only for publishing releases. If you are looking to alter CSS or JavaScript content please edit the source files found in `resources/`. Any CSS or JS files within `public` are built from these source files and therefore should not be edited directly.
 
-The project's code of conduct [can be found here](https://github.com/BookStackApp/BookStack/blob/development/.github/CODE_OF_CONDUCT.md).
+The project's code of conduct [can be found here](https://github.com/AppApp/App/blob/development/.github/CODE_OF_CONDUCT.md).
 
 ## 🔒 Security
 
-Security information for administering a BookStack instance can be found on the [documentation site here](https://www.bookstackapp.com/docs/admin/security/).
+Security information for administering a App instance can be found on the [documentation site here](https://www.bookstackapp.com/docs/admin/security/).
 
-If you'd like to be notified of new potential security concerns you can [sign-up to the BookStack security mailing list](https://updates.bookstackapp.com/signup/bookstack-security-updates).
+If you'd like to be notified of new potential security concerns you can [sign-up to the App security mailing list](https://updates.bookstackapp.com/signup/bookstack-security-updates).
 
-If you would like to report a security concern, details of doing so can [can be found here](https://github.com/BookStackApp/BookStack/blob/development/.github/SECURITY.md).
+If you would like to report a security concern, details of doing so can [can be found here](https://github.com/AppApp/App/blob/development/.github/SECURITY.md).
 
 ## ♿ Accessibility
 
-We want BookStack to remain accessible to as many people as possible. We aim for at least WCAG 2.1 Level A standards where possible although we do not strictly test this upon each release. If you come across any accessibility issues please feel free to open an issue.
+We want App to remain accessible to as many people as possible. We aim for at least WCAG 2.1 Level A standards where possible although we do not strictly test this upon each release. If you come across any accessibility issues please feel free to open an issue.
 
 ## 🖥️ Website, Docs & Blog
 
-The website which contains the project docs & blog can be found in the [BookStackApp/website](https://github.com/BookStackApp/website) repo.
+The website which contains the project docs & blog can be found in the [AppApp/website](https://github.com/AppApp/website) repo.
 
 ## ⚖️ License
 
-The BookStack source is provided under the [MIT License](https://github.com/BookStackApp/BookStack/blob/development/LICENSE). 
+The App source is provided under the [MIT License](https://github.com/AppApp/App/blob/development/LICENSE). 
 
-The libraries used by, and included with, BookStack are provided under their own licenses and copyright.
-The licenses for many of our core dependencies can be found in the attribution list below but this is not an exhaustive list of all projects used within BookStack. 
+The libraries used by, and included with, App are provided under their own licenses and copyright.
+The licenses for many of our core dependencies can be found in the attribution list below but this is not an exhaustive list of all projects used within App. 
 
 ## 👪 Attribution
 
-The great people that have worked to build and improve BookStack can [be seen here](https://github.com/BookStackApp/BookStack/graphs/contributors). The wonderful people that have provided translations, either through GitHub or via Crowdin [can be seen here](https://github.com/BookStackApp/BookStack/blob/development/.github/translators.txt).
+The great people that have worked to build and improve App can [be seen here](https://github.com/AppApp/App/graphs/contributors). The wonderful people that have provided translations, either through GitHub or via Crowdin [can be seen here](https://github.com/AppApp/App/blob/development/.github/translators.txt).
 
-Below are the great open-source projects used to help build BookStack. 
-Note: This is not an exhaustive list of all libraries and projects that would be used in an active BookStack instance.
+Below are the great open-source projects used to help build App. 
+Note: This is not an exhaustive list of all libraries and projects that would be used in an active App instance.
 
 * [Laravel](http://laravel.com/) - _[MIT](https://github.com/laravel/framework/blob/v8.82.0/LICENSE.md)_
 * [TinyMCE](https://www.tinymce.com/) - _[MIT](https://github.com/tinymce/tinymce/blob/develop/LICENSE.TXT)_

@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Actions;
+namespace App\Actions;
 
-use BookStack\Auth\Permissions\JointPermission;
-use BookStack\Auth\User;
-use BookStack\Entities\Models\Entity;
-use BookStack\Model;
+use App\Auth\Permissions\JointPermission;
+use App\Auth\User;
+use App\Entities\Models\Entity;
+use App\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

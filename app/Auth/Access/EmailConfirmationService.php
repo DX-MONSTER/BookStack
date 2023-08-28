@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Auth\Access;
+namespace App\Auth\Access;
 
-use BookStack\Auth\User;
-use BookStack\Exceptions\ConfirmationEmailException;
-use BookStack\Notifications\ConfirmEmail;
+use App\Auth\User;
+use App\Exceptions\ConfirmationEmailException;
+use App\Notifications\ConfirmEmail;
 
 class EmailConfirmationService extends UserTokenService
 {

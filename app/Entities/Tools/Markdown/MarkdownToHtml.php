@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Entities\Tools\Markdown;
+namespace App\Entities\Tools\Markdown;
 
-use BookStack\Facades\Theme;
-use BookStack\Theming\ThemeEvents;
+use App\Facades\Theme;
+use App\Theming\ThemeEvents;
 use League\CommonMark\Environment\Environment;
 use League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension;
 use League\CommonMark\Extension\CommonMark\Node\Block\ListItem;

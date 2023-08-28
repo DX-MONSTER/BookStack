@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Api\ApiToken;
-use BookStack\Auth\User;
+use App\Actions\ActivityType;
+use App\Api\ApiToken;
+use App\Auth\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;

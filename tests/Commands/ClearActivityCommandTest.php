@@ -2,8 +2,8 @@
 
 namespace Tests\Commands;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Facades\Activity;
+use App\Actions\ActivityType;
+use App\Facades\Activity;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Tests\TestCase;

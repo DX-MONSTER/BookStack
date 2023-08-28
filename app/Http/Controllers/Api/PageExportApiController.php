@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Http\Controllers\Api;
+namespace App\Http\Controllers\Api;
 
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Tools\ExportFormatter;
+use App\Entities\Models\Page;
+use App\Entities\Tools\ExportFormatter;
 use Throwable;
 
 class PageExportApiController extends ApiController

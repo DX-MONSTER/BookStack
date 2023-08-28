@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Entities\Models;
+namespace App\Entities\Models;
 
-use BookStack\Auth\User;
-use BookStack\Interfaces\Deletable;
-use BookStack\Interfaces\Loggable;
+use App\Auth\User;
+use App\Interfaces\Deletable;
+use App\Interfaces\Loggable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

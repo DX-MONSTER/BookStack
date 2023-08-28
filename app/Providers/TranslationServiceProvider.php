@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Providers;
+namespace App\Providers;
 
-use BookStack\Translation\FileLoader;
-use BookStack\Translation\MessageSelector;
+use App\Translation\FileLoader;
+use App\Translation\MessageSelector;
 use Illuminate\Translation\TranslationServiceProvider as BaseProvider;
 use Illuminate\Translation\Translator;
 

@@ -2,8 +2,8 @@
 
 namespace Tests\Permissions\Scenarios;
 
-use BookStack\Auth\User;
-use BookStack\Entities\Models\Entity;
+use App\Auth\User;
+use App\Entities\Models\Entity;
 use Tests\TestCase;
 
 // Cases defined in dev/docs/permission-scenario-testing.md

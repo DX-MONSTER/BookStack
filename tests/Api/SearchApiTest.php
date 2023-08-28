@@ -2,11 +2,11 @@
 
 namespace Tests\Api;
 
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Models\Page;
+use App\Entities\Models\Book;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Entity;
+use App\Entities\Models\Page;
 use Tests\TestCase;
 
 class SearchApiTest extends TestCase

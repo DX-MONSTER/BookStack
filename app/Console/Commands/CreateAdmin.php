@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Console\Commands;
+namespace App\Console\Commands;
 
-use BookStack\Auth\Role;
-use BookStack\Auth\UserRepo;
-use BookStack\Exceptions\NotFoundException;
+use App\Auth\Role;
+use App\Auth\UserRepo;
+use App\Exceptions\NotFoundException;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;

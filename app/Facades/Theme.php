@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Facades;
+namespace App\Facades;
 
-use BookStack\Theming\ThemeService;
+use App\Theming\ThemeService;
 use Illuminate\Support\Facades\Facade;
 
 class Theme extends Facade

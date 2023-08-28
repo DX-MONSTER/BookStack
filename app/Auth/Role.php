@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Auth;
+namespace App\Auth;
 
-use BookStack\Auth\Permissions\EntityPermission;
-use BookStack\Auth\Permissions\JointPermission;
-use BookStack\Auth\Permissions\RolePermission;
-use BookStack\Interfaces\Loggable;
-use BookStack\Model;
+use App\Auth\Permissions\EntityPermission;
+use App\Auth\Permissions\JointPermission;
+use App\Auth\Permissions\RolePermission;
+use App\Interfaces\Loggable;
+use App\Model;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

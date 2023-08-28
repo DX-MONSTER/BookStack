@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Exceptions;
+namespace App\Exceptions;
 
 use Illuminate\Contracts\Foundation\ExceptionRenderer;
 
-class BookStackExceptionHandlerPage implements ExceptionRenderer
+class AppExceptionHandlerPage implements ExceptionRenderer
 {
     public function render($throwable)
     {
@@ -29,7 +29,7 @@ class BookStackExceptionHandlerPage implements ExceptionRenderer
     {
         return [
             'PHP Version'       => phpversion(),
-            'BookStack Version' => $this->safeReturn(function () {
+            'App Version' => $this->safeReturn(function () {
                 $versionFile = base_path('version');
 
                 return trim(file_get_contents($versionFile));

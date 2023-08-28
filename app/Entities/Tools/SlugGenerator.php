@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Entities\Tools;
+namespace App\Entities\Tools;
 
-use BookStack\Entities\Models\BookChild;
-use BookStack\Interfaces\Sluggable;
-use BookStack\Model;
+use App\Entities\Models\BookChild;
+use App\Interfaces\Sluggable;
+use App\Model;
 use Illuminate\Support\Str;
 
 class SlugGenerator

@@ -1,7 +1,7 @@
 <?php
 /**
  * Settings text strings
- * Contains all text strings used in the general settings sections of BookStack
+ * Contains all text strings used in the general settings sections of App
  * including users and roles.
  */
 return [
@@ -10,7 +10,7 @@ return [
     'settings' => 'Ajustes',
     'settings_save' => 'Guardar ajustes',
     'settings_save_success' => 'Ajustes guardados',
-    'system_version' => 'Versión de BookStack',
+    'system_version' => 'Versión de App',
     'categories' => 'Categorías',
 
     // App Settings
@@ -20,7 +20,7 @@ return [
     'app_name_desc' => 'Este nombre se muestra en la cabecera y en cualquier correo electrónico enviado por el sistema.',
     'app_name_header' => 'Mostrar el nombre en la cabecera',
     'app_public_access' => 'Acceso público',
-    'app_public_access_desc' => 'Activar esta opción permitirá a los visitantes que no hayan iniciado sesión, poder ver el contenido de tu BookStack.',
+    'app_public_access_desc' => 'Activar esta opción permitirá a los visitantes que no hayan iniciado sesión, poder ver el contenido de tu App.',
     'app_public_access_desc_guest' => 'El acceso público para visitantes puede ser controlado a través del usuario "Guest".',
     'app_public_access_toggle' => 'Permitir acceso público',
     'app_public_viewing' => '¿Permitir acceso público?',
@@ -50,8 +50,8 @@ return [
 
     // Color settings
     'color_scheme' => 'Esquema de color de la aplicación',
-    'color_scheme_desc' => 'Establecer los colores a usar en la interfaz de BookStack. Los colores pueden configurarse por separado para que los modos oscuros y claros se ajusten mejor al tema y garanticen la legibilidad.',
-    'ui_colors_desc' => 'Establezca el color principal y el color de los enlaces para BookStack. El color principal se utiliza principalmente para la cabecera, botones y decoraciones de la interfaz. El color de los enlaces se utiliza para enlaces y acciones de texto, tanto dentro del contenido escrito como en la interfaz de Bookstack.',
+    'color_scheme_desc' => 'Establecer los colores a usar en la interfaz de App. Los colores pueden configurarse por separado para que los modos oscuros y claros se ajusten mejor al tema y garanticen la legibilidad.',
+    'ui_colors_desc' => 'Establezca el color principal y el color de los enlaces para App. El color principal se utiliza principalmente para la cabecera, botones y decoraciones de la interfaz. El color de los enlaces se utiliza para enlaces y acciones de texto, tanto dentro del contenido escrito como en la interfaz de Bookstack.',
     'app_color' => 'Color principal',
     'link_color' => 'Color de enlaces por defecto',
     'content_colors_desc' => 'Establece los colores para todos los elementos en la jerarquía de la organización de la página. Se recomienda elegir colores con un brillo similar al predeterminado para mayor legibilidad.',

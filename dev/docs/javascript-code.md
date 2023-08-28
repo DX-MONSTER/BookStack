@@ -1,12 +1,12 @@
-# BookStack JavaScript Code
+# App JavaScript Code
 
-BookStack is primarily server-side-rendered, but it uses JavaScript sparingly to drive any required dynamic elements. Most JavaScript is applied via a custom, and very thin, component interface to keep code organised and somewhat reusable.
+App is primarily server-side-rendered, but it uses JavaScript sparingly to drive any required dynamic elements. Most JavaScript is applied via a custom, and very thin, component interface to keep code organised and somewhat reusable.
 
 JavaScript source code can be found in the `resources/js` directory. This gets bundled and transformed by `esbuild`, ending up in the `public/dist` folder for browser use. Read the [Development > "Building CSS & JavaScript Assets"](development.md#building-css-&-javascript-assets) documentation for details on this process.
 
 ## Components
 
-This section details the format for JavaScript components in BookStack. This is a really simple class-based setup with a few helpers provided.
+This section details the format for JavaScript components in App. This is a really simple class-based setup with a few helpers provided.
 
 ### Defining a Component in JS
 
@@ -111,7 +111,7 @@ this.$emit(eventName, data = {})
 
 ## Global JavaScript Helpers
 
-There are various global helper libraries in BookStack which can be accessed via the `window`. The below provides an overview of what's available. 
+There are various global helper libraries in App which can be accessed via the `window`. The below provides an overview of what's available. 
 
 ```js
 // HTTP service

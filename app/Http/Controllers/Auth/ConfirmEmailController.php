@@ -1,14 +1,14 @@
 <?php
 
-namespace BookStack\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use BookStack\Auth\Access\EmailConfirmationService;
-use BookStack\Auth\Access\LoginService;
-use BookStack\Auth\UserRepo;
-use BookStack\Exceptions\ConfirmationEmailException;
-use BookStack\Exceptions\UserTokenExpiredException;
-use BookStack\Exceptions\UserTokenNotFoundException;
-use BookStack\Http\Controllers\Controller;
+use App\Auth\Access\EmailConfirmationService;
+use App\Auth\Access\LoginService;
+use App\Auth\UserRepo;
+use App\Exceptions\ConfirmationEmailException;
+use App\Exceptions\UserTokenExpiredException;
+use App\Exceptions\UserTokenNotFoundException;
+use App\Http\Controllers\Controller;
 use Exception;
 use Illuminate\Http\Request;
 

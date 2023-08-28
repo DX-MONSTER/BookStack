@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Http\Middleware;
+namespace App\Http\Middleware;
 
-use BookStack\Facades\Theme;
-use BookStack\Theming\ThemeEvents;
+use App\Facades\Theme;
+use App\Theming\ThemeEvents;
 use Closure;
 
 class RunThemeActions

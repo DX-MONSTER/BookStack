@@ -1,9 +1,9 @@
 <?php
 
-use BookStack\Auth\Permissions\PermissionApplicator;
-use BookStack\Auth\User;
-use BookStack\Model;
-use BookStack\Settings\SettingService;
+use App\Auth\Permissions\PermissionApplicator;
+use App\Auth\User;
+use App\Model;
+use App\Settings\SettingService;
 
 /**
  * Get the path to a versioned file.

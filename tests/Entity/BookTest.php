@@ -2,10 +2,10 @@
 
 namespace Tests\Entity;
 
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\BookChild;
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Repos\BookRepo;
+use App\Entities\Models\Book;
+use App\Entities\Models\BookChild;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Repos\BookRepo;
 use Tests\TestCase;
 
 class BookTest extends TestCase

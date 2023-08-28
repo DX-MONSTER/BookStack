@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Http\Responses;
+namespace App\Http\Responses;
 
-use BookStack\Util\WebSafeMimeSniffer;
+use App\Util\WebSafeMimeSniffer;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Symfony\Component\HttpFoundation\StreamedResponse;

@@ -2,8 +2,8 @@
 
 namespace Tests\Entity;
 
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Page;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Page;
 use Tests\TestCase;
 
 class PageEditorTest extends TestCase

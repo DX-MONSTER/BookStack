@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Http\Controllers\Controller;
+use App\Actions\ActivityType;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Password;
 

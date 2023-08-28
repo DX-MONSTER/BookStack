@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use BookStack\Auth\Access\UserInviteService;
-use BookStack\Auth\UserRepo;
-use BookStack\Exceptions\UserTokenExpiredException;
-use BookStack\Exceptions\UserTokenNotFoundException;
-use BookStack\Http\Controllers\Controller;
+use App\Auth\Access\UserInviteService;
+use App\Auth\UserRepo;
+use App\Exceptions\UserTokenExpiredException;
+use App\Exceptions\UserTokenNotFoundException;
+use App\Http\Controllers\Controller;
 use Exception;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;

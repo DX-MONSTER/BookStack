@@ -2,7 +2,7 @@
 
 namespace Tests\Settings;
 
-use BookStack\Util\CspService;
+use App\Util\CspService;
 use Tests\TestCase;
 
 class CustomHeadContentTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Console\Commands;
+namespace App\Console\Commands;
 
-use BookStack\Uploads\ImageService;
+use App\Uploads\ImageService;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Output\OutputInterface;
 
@@ -30,7 +30,7 @@ class CleanupImages extends Command
     /**
      * Create a new command instance.
      *
-     * @param \BookStack\Uploads\ImageService $imageService
+     * @param \App\Uploads\ImageService $imageService
      */
     public function __construct(ImageService $imageService)
     {

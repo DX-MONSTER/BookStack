@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Entities\Tools;
+namespace App\Entities\Tools;
 
 use Barryvdh\DomPDF\Facade\Pdf as DomPDF;
 use Barryvdh\Snappy\Facades\SnappyPdf;

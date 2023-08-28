@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Util;
+namespace App\Util;
 
 use finfo;
 

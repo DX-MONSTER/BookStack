@@ -1,17 +1,17 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\ActivityQueries;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Queries\RecentlyViewed;
-use BookStack\Entities\Queries\TopFavourites;
-use BookStack\Entities\Repos\BookRepo;
-use BookStack\Entities\Repos\BookshelfRepo;
-use BookStack\Entities\Tools\PageContent;
-use BookStack\Uploads\FaviconHandler;
-use BookStack\Util\SimpleListOptions;
+use App\Actions\ActivityQueries;
+use App\Entities\Models\Book;
+use App\Entities\Models\Page;
+use App\Entities\Queries\RecentlyViewed;
+use App\Entities\Queries\TopFavourites;
+use App\Entities\Repos\BookRepo;
+use App\Entities\Repos\BookshelfRepo;
+use App\Entities\Tools\PageContent;
+use App\Uploads\FaviconHandler;
+use App\Util\SimpleListOptions;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller

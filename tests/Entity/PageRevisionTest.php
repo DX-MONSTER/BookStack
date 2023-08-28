@@ -2,8 +2,8 @@
 
 namespace Tests\Entity;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Entities\Models\Page;
+use App\Actions\ActivityType;
+use App\Entities\Models\Page;
 use Tests\TestCase;
 
 class PageRevisionTest extends TestCase

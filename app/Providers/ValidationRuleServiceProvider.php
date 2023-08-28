@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Providers;
+namespace App\Providers;
 
-use BookStack\Uploads\ImageService;
+use App\Uploads\ImageService;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace BookStack\Http\Controllers\Images;
+namespace App\Http\Controllers\Images;
 
-use BookStack\Exceptions\ImageUploadException;
-use BookStack\Exceptions\NotFoundException;
-use BookStack\Http\Controllers\Controller;
-use BookStack\Uploads\Image;
-use BookStack\Uploads\ImageRepo;
-use BookStack\Uploads\ImageService;
+use App\Exceptions\ImageUploadException;
+use App\Exceptions\NotFoundException;
+use App\Http\Controllers\Controller;
+use App\Uploads\Image;
+use App\Uploads\ImageRepo;
+use App\Uploads\ImageService;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;

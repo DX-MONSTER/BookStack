@@ -2,10 +2,10 @@
 
 namespace Tests\Auth;
 
-use BookStack\Auth\Access\Ldap;
-use BookStack\Auth\Access\LdapService;
-use BookStack\Auth\Role;
-use BookStack\Auth\User;
+use App\Auth\Access\Ldap;
+use App\Auth\Access\LdapService;
+use App\Auth\Role;
+use App\Auth\User;
 use Illuminate\Testing\TestResponse;
 use Mockery\MockInterface;
 use Tests\TestCase;

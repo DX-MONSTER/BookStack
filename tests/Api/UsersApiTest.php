@@ -2,11 +2,11 @@
 
 namespace Tests\Api;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Auth\Role;
-use BookStack\Auth\User;
-use BookStack\Entities\Models\Entity;
-use BookStack\Notifications\UserInvite;
+use App\Actions\ActivityType;
+use App\Auth\Role;
+use App\Auth\User;
+use App\Entities\Models\Entity;
+use App\Notifications\UserInvite;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Notification;
 use Tests\TestCase;

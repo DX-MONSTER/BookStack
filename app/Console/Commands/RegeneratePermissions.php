@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Console\Commands;
+namespace App\Console\Commands;
 
-use BookStack\Auth\Permissions\JointPermissionBuilder;
+use App\Auth\Permissions\JointPermissionBuilder;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 

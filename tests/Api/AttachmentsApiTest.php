@@ -2,8 +2,8 @@
 
 namespace Tests\Api;
 
-use BookStack\Entities\Models\Page;
-use BookStack\Uploads\Attachment;
+use App\Entities\Models\Page;
+use App\Uploads\Attachment;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Testing\AssertableJsonString;
 use Tests\TestCase;

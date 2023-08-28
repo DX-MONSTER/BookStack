@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Http\Controllers\Api;
+namespace App\Http\Controllers\Api;
 
-use BookStack\Api\ApiEntityListFormatter;
-use BookStack\Entities\Models\Entity;
-use BookStack\Search\SearchOptions;
-use BookStack\Search\SearchResultsFormatter;
-use BookStack\Search\SearchRunner;
+use App\Api\ApiEntityListFormatter;
+use App\Entities\Models\Entity;
+use App\Search\SearchOptions;
+use App\Search\SearchResultsFormatter;
+use App\Search\SearchRunner;
 use Illuminate\Http\Request;
 
 class SearchApiController extends ApiController
@@ -30,7 +30,7 @@ class SearchApiController extends ApiController
 
     /**
      * Run a search query against all main content types (shelves, books, chapters & pages)
-     * in the system. Takes the same input as the main search bar within the BookStack
+     * in the system. Takes the same input as the main search bar within the App
      * interface as a 'query' parameter. See https://www.bookstackapp.com/docs/user/searching/
      * for a full list of search term options. Results contain a 'type' property to distinguish
      * between: bookshelf, book, chapter & page.

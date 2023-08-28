@@ -1,16 +1,16 @@
 <?php
 
-namespace BookStack\Providers;
+namespace App\Providers;
 
-use BookStack\Actions\ActivityLogger;
-use BookStack\Auth\Access\SocialAuthService;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Page;
-use BookStack\Exceptions\BookStackExceptionHandlerPage;
-use BookStack\Settings\SettingService;
-use BookStack\Util\CspService;
+use App\Actions\ActivityLogger;
+use App\Auth\Access\SocialAuthService;
+use App\Entities\Models\Book;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Page;
+use App\Exceptions\AppExceptionHandlerPage;
+use App\Settings\SettingService;
+use App\Util\CspService;
 use GuzzleHttp\Client;
 use Illuminate\Contracts\Foundation\ExceptionRenderer;
 use Illuminate\Database\Eloquent\Relations\Relation;
@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
      * @var string[]
      */
     public $bindings = [
-        ExceptionRenderer::class => BookStackExceptionHandlerPage::class,
+        ExceptionRenderer::class => AppExceptionHandlerPage::class,
     ];
 
     /**

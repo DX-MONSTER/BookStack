@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Uploads;
+namespace App\Uploads;
 
-use BookStack\Exceptions\FileUploadException;
+use App\Exceptions\FileUploadException;
 use Exception;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Contracts\Filesystem\Filesystem as Storage;

@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\References;
+namespace App\References;
 
-use BookStack\Auth\Permissions\PermissionApplicator;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Models\Page;
+use App\Auth\Permissions\PermissionApplicator;
+use App\Entities\Models\Entity;
+use App\Entities\Models\Page;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\Relation;

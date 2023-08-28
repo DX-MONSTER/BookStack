@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Http;
+namespace App\Http;
 
 use Illuminate\Http\Request as LaravelRequest;
 

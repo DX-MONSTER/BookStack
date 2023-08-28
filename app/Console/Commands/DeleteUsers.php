@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Console\Commands;
+namespace App\Console\Commands;
 
-use BookStack\Auth\User;
-use BookStack\Auth\UserRepo;
+use App\Auth\User;
+use App\Auth\UserRepo;
 use Illuminate\Console\Command;
 
 class DeleteUsers extends Command

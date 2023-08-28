@@ -2,10 +2,10 @@
 
 namespace Tests\Entity;
 
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Repos\PageRepo;
+use App\Entities\Models\Book;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Page;
+use App\Entities\Repos\PageRepo;
 use Tests\TestCase;
 
 class SortTest extends TestCase

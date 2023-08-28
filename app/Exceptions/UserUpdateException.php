@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Exceptions;
+namespace App\Exceptions;
 
 class UserUpdateException extends NotifyException
 {

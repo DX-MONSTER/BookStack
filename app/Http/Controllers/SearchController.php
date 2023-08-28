@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Entities\Queries\Popular;
-use BookStack\Entities\Tools\SiblingFetcher;
-use BookStack\Search\SearchOptions;
-use BookStack\Search\SearchResultsFormatter;
-use BookStack\Search\SearchRunner;
+use App\Entities\Queries\Popular;
+use App\Entities\Tools\SiblingFetcher;
+use App\Search\SearchOptions;
+use App\Search\SearchResultsFormatter;
+use App\Search\SearchRunner;
 use Illuminate\Http\Request;
 
 class SearchController extends Controller

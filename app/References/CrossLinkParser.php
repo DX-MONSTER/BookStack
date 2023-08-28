@@ -1,14 +1,14 @@
 <?php
 
-namespace BookStack\References;
+namespace App\References;
 
-use BookStack\Model;
-use BookStack\References\ModelResolvers\BookLinkModelResolver;
-use BookStack\References\ModelResolvers\BookshelfLinkModelResolver;
-use BookStack\References\ModelResolvers\ChapterLinkModelResolver;
-use BookStack\References\ModelResolvers\CrossLinkModelResolver;
-use BookStack\References\ModelResolvers\PageLinkModelResolver;
-use BookStack\References\ModelResolvers\PagePermalinkModelResolver;
+use App\Model;
+use App\References\ModelResolvers\BookLinkModelResolver;
+use App\References\ModelResolvers\BookshelfLinkModelResolver;
+use App\References\ModelResolvers\ChapterLinkModelResolver;
+use App\References\ModelResolvers\CrossLinkModelResolver;
+use App\References\ModelResolvers\PageLinkModelResolver;
+use App\References\ModelResolvers\PagePermalinkModelResolver;
 use DOMDocument;
 use DOMXPath;
 
@@ -87,7 +87,7 @@ class CrossLinkParser
 
     /**
      * Create a new instance with a pre-defined set of model resolvers, specifically for the
-     * default set of entities within BookStack.
+     * default set of entities within App.
      */
     public static function createWithEntityResolvers(): self
     {

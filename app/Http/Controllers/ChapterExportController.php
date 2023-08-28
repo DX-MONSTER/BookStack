@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Entities\Repos\ChapterRepo;
-use BookStack\Entities\Tools\ExportFormatter;
-use BookStack\Exceptions\NotFoundException;
+use App\Entities\Repos\ChapterRepo;
+use App\Entities\Tools\ExportFormatter;
+use App\Exceptions\NotFoundException;
 use Throwable;
 
 class ChapterExportController extends Controller

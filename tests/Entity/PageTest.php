@@ -2,8 +2,8 @@
 
 namespace Tests\Entity;
 
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Page;
+use App\Entities\Models\Book;
+use App\Entities\Models\Page;
 use Carbon\Carbon;
 use Tests\TestCase;
 

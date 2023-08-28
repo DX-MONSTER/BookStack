@@ -2,8 +2,8 @@
 
 namespace Tests\Api;
 
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Deletion;
+use App\Entities\Models\Book;
+use App\Entities\Models\Deletion;
 use Illuminate\Support\Collection;
 use Tests\TestCase;
 

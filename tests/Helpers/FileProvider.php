@@ -2,9 +2,9 @@
 
 namespace Tests\Helpers;
 
-use BookStack\Entities\Models\Page;
-use BookStack\Uploads\Attachment;
-use BookStack\Uploads\AttachmentService;
+use App\Entities\Models\Page;
+use App\Uploads\Attachment;
+use App\Uploads\AttachmentService;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Testing\TestResponse;
 use stdClass;

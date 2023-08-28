@@ -2,7 +2,7 @@
 
 <p class="mb-none">
     This documentation covers use of the REST API. <br>
-    Examples of API usage, in a variety of programming languages, can be found in the <a href="https://github.com/BookStackApp/api-scripts" target="_blank" rel="noopener noreferrer">BookStack api-scripts repo on GitHub</a>.
+    Examples of API usage, in a variety of programming languages, can be found in the <a href="https://github.com/AppApp/api-scripts" target="_blank" rel="noopener noreferrer">App api-scripts repo on GitHub</a>.
 
     <br> <br>
     Some alternative options for extension and customization can be found below:
@@ -11,15 +11,15 @@
 <ul>
     <li>
         <a href="{{ url('/settings/webhooks') }}" target="_blank" rel="noopener noreferrer">Webhooks</a> -
-        HTTP POST calls upon events occurring in BookStack.
+        HTTP POST calls upon events occurring in App.
     </li>
     <li>
-        <a href="https://github.com/BookStackApp/BookStack/blob/master/dev/docs/visual-theme-system.md" target="_blank" rel="noopener noreferrer">Visual Theme System</a> -
-        Methods to override views, translations and icons within BookStack.
+        <a href="https://github.com/AppApp/App/blob/master/dev/docs/visual-theme-system.md" target="_blank" rel="noopener noreferrer">Visual Theme System</a> -
+        Methods to override views, translations and icons within App.
     </li>
     <li>
-        <a href="https://github.com/BookStackApp/BookStack/blob/master/dev/docs/logical-theme-system.md" target="_blank" rel="noopener noreferrer">Logical Theme System</a> -
-        Methods to extend back-end functionality within BookStack.
+        <a href="https://github.com/AppApp/App/blob/master/dev/docs/logical-theme-system.md" target="_blank" rel="noopener noreferrer">Logical Theme System</a> -
+        Methods to extend back-end functionality within App.
     </li>
 </ul>
 
@@ -106,9 +106,9 @@ tags[0][value]=Tag Value</code></pre>
   "data": [
     {
       "id": 1,
-      "name": "BookStack User Guide",
+      "name": "App User Guide",
       "slug": "bookstack-user-guide",
-      "description": "This is a general guide on using BookStack on a day-to-day basis.",
+      "description": "This is a general guide on using App on a day-to-day basis.",
       "created_at": "2019-05-05 21:48:46",
       "updated_at": "2019-12-11 20:57:31",
       "created_by": 1,

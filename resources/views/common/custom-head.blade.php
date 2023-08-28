@@ -1,4 +1,4 @@
-@inject('headContent', 'BookStack\Theming\CustomHtmlHeadContentProvider')
+@inject('headContent', 'App\Theming\CustomHtmlHeadContentProvider')
 
 @if(setting('app-custom-head') && !request()->routeIs('settings.category'))
 <!-- Start: custom user content -->

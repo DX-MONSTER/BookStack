@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Http\Controllers\Api;
+namespace App\Http\Controllers\Api;
 
-use BookStack\Api\ApiDocsGenerator;
+use App\Api\ApiDocsGenerator;
 
 class ApiDocsController extends ApiController
 {

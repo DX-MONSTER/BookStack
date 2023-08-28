@@ -1,19 +1,19 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\View;
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Repos\PageRepo;
-use BookStack\Entities\Tools\BookContents;
-use BookStack\Entities\Tools\Cloner;
-use BookStack\Entities\Tools\NextPreviousContentLocator;
-use BookStack\Entities\Tools\PageContent;
-use BookStack\Entities\Tools\PageEditActivity;
-use BookStack\Entities\Tools\PageEditorData;
-use BookStack\Exceptions\NotFoundException;
-use BookStack\Exceptions\PermissionsException;
-use BookStack\References\ReferenceFetcher;
+use App\Actions\View;
+use App\Entities\Models\Page;
+use App\Entities\Repos\PageRepo;
+use App\Entities\Tools\BookContents;
+use App\Entities\Tools\Cloner;
+use App\Entities\Tools\NextPreviousContentLocator;
+use App\Entities\Tools\PageContent;
+use App\Entities\Tools\PageEditActivity;
+use App\Entities\Tools\PageEditorData;
+use App\Exceptions\NotFoundException;
+use App\Exceptions\PermissionsException;
+use App\References\ReferenceFetcher;
 use Exception;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Http\Request;

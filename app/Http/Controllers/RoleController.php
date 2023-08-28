@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Auth\Permissions\PermissionsRepo;
-use BookStack\Auth\Queries\RolesAllPaginatedAndSorted;
-use BookStack\Auth\Role;
-use BookStack\Exceptions\PermissionsException;
-use BookStack\Util\SimpleListOptions;
+use App\Auth\Permissions\PermissionsRepo;
+use App\Auth\Queries\RolesAllPaginatedAndSorted;
+use App\Auth\Role;
+use App\Exceptions\PermissionsException;
+use App\Util\SimpleListOptions;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;

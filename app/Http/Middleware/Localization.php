@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Http\Middleware;
+namespace App\Http\Middleware;
 
-use BookStack\Util\LanguageManager;
+use App\Util\LanguageManager;
 use Carbon\Carbon;
 use Closure;
 

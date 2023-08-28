@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Auth;
+namespace App\Auth;
 
-use BookStack\Interfaces\Loggable;
-use BookStack\Model;
+use App\Interfaces\Loggable;
+use App\Model;
 
 /**
  * Class SocialAccount.

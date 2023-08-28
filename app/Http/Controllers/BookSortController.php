@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Entities\Repos\BookRepo;
-use BookStack\Entities\Tools\BookContents;
-use BookStack\Entities\Tools\BookSortMap;
-use BookStack\Facades\Activity;
+use App\Actions\ActivityType;
+use App\Entities\Repos\BookRepo;
+use App\Entities\Tools\BookContents;
+use App\Entities\Tools\BookSortMap;
+use App\Facades\Activity;
 use Illuminate\Http\Request;
 
 class BookSortController extends Controller

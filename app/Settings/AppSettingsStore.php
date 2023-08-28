@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Settings;
+namespace App\Settings;
 
-use BookStack\Uploads\FaviconHandler;
-use BookStack\Uploads\ImageRepo;
+use App\Uploads\FaviconHandler;
+use App\Uploads\ImageRepo;
 use Illuminate\Http\Request;
 
 class AppSettingsStore

@@ -11,7 +11,7 @@ return [
     // Claim, within an OpenId token, to find the user's display name
     'display_name_claims' => explode('|', env('OIDC_DISPLAY_NAME_CLAIMS', 'name')),
 
-    // Claim, within an OpenID token, to use to connect a BookStack user to the OIDC user.
+    // Claim, within an OpenID token, to use to connect a App user to the OIDC user.
     'external_id_claim' => env('OIDC_EXTERNAL_ID_CLAIM', 'sub'),
 
     // OAuth2/OpenId client id, as configured in your Authorization server.
@@ -41,7 +41,7 @@ return [
     'additional_scopes' => env('OIDC_ADDITIONAL_SCOPES', null),
 
     // Group sync options
-    // Enable syncing, upon login, of OIDC groups to BookStack roles
+    // Enable syncing, upon login, of OIDC groups to App roles
     'user_to_groups' => env('OIDC_USER_TO_GROUPS', false),
     // Attribute, within a OIDC ID token, to find group names within
     'groups_claim' => env('OIDC_GROUPS_CLAIM', 'groups'),

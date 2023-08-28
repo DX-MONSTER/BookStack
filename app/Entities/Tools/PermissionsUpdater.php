@@ -1,14 +1,14 @@
 <?php
 
-namespace BookStack\Entities\Tools;
+namespace App\Entities\Tools;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Auth\Permissions\EntityPermission;
-use BookStack\Auth\User;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Models\Entity;
-use BookStack\Facades\Activity;
+use App\Actions\ActivityType;
+use App\Auth\Permissions\EntityPermission;
+use App\Auth\User;
+use App\Entities\Models\Book;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Models\Entity;
+use App\Facades\Activity;
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 

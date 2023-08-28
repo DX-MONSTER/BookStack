@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Console\Commands;
+namespace App\Console\Commands;
 
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Tools\PermissionsUpdater;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Tools\PermissionsUpdater;
 use Illuminate\Console\Command;
 
 class CopyShelfPermissions extends Command

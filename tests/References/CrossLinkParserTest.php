@@ -2,7 +2,7 @@
 
 namespace Tests\References;
 
-use BookStack\References\CrossLinkParser;
+use App\References\CrossLinkParser;
 use Tests\TestCase;
 
 class CrossLinkParserTest extends TestCase

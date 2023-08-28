@@ -2,8 +2,8 @@
 
 namespace Tests\User;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Api\ApiToken;
+use App\Actions\ActivityType;
+use App\Api\ApiToken;
 use Carbon\Carbon;
 use Tests\TestCase;
 

@@ -1,15 +1,15 @@
 <?php
 
-namespace BookStack\Auth\Access;
+namespace App\Auth\Access;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Auth\SocialAccount;
-use BookStack\Auth\User;
-use BookStack\Auth\UserRepo;
-use BookStack\Exceptions\UserRegistrationException;
-use BookStack\Facades\Activity;
-use BookStack\Facades\Theme;
-use BookStack\Theming\ThemeEvents;
+use App\Actions\ActivityType;
+use App\Auth\SocialAccount;
+use App\Auth\User;
+use App\Auth\UserRepo;
+use App\Exceptions\UserRegistrationException;
+use App\Facades\Activity;
+use App\Facades\Theme;
+use App\Theming\ThemeEvents;
 use Exception;
 use Illuminate\Support\Str;
 
@@ -40,7 +40,7 @@ class RegistrationService
     }
 
     /**
-     * Check if standard BookStack User registrations are currently allowed.
+     * Check if standard App User registrations are currently allowed.
      * Does not prevent external-auth based registration.
      */
     protected function registrationAllowed(): bool

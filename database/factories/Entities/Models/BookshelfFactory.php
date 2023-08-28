@@ -12,7 +12,7 @@ class BookshelfFactory extends Factory
      *
      * @var string
      */
-    protected $model = \BookStack\Entities\Models\Bookshelf::class;
+    protected $model = \App\Entities\Models\Bookshelf::class;
 
     /**
      * Define the model's default state.

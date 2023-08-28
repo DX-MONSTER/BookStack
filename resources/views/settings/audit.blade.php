@@ -50,7 +50,7 @@
                  component="submit-on-change"
                  option:submit-on-change:filter='[name="user"]'>
                 <label for="owner">{{ trans('settings.audit_table_user') }}</label>
-                @include('form.user-select', ['user' => $filters['user'] ? \BookStack\Auth\User::query()->find($filters['user']) : null, 'name' => 'user'])
+                @include('form.user-select', ['user' => $filters['user'] ? \App\Auth\User::query()->find($filters['user']) : null, 'name' => 'user'])
             </div>
 
 

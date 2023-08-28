@@ -48,7 +48,7 @@
         <hr class="my-s">
 
         <div class="dual-column-content toggle-switch-list">
-            @foreach(\BookStack\Actions\ActivityType::all() as $activityType)
+            @foreach(\App\Actions\ActivityType::all() as $activityType)
                 <div>
                     @include('form.custom-checkbox', [
                        'name' => 'events[]',

@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Auth\Permissions;
+namespace App\Auth\Permissions;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Auth\Role;
-use BookStack\Exceptions\PermissionsException;
-use BookStack\Facades\Activity;
+use App\Actions\ActivityType;
+use App\Auth\Role;
+use App\Exceptions\PermissionsException;
+use App\Facades\Activity;
 use Exception;
 use Illuminate\Database\Eloquent\Collection;
 

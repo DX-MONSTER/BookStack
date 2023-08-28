@@ -1,15 +1,15 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Auth\Permissions\EntityPermission;
-use BookStack\Auth\Permissions\PermissionFormData;
-use BookStack\Auth\Role;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Tools\PermissionsUpdater;
+use App\Auth\Permissions\EntityPermission;
+use App\Auth\Permissions\PermissionFormData;
+use App\Auth\Role;
+use App\Entities\Models\Book;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Page;
+use App\Entities\Tools\PermissionsUpdater;
 use Illuminate\Http\Request;
 
 class PermissionsController extends Controller

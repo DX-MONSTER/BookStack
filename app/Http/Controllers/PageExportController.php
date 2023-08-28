@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Entities\Repos\PageRepo;
-use BookStack\Entities\Tools\ExportFormatter;
-use BookStack\Entities\Tools\PageContent;
-use BookStack\Exceptions\NotFoundException;
+use App\Entities\Repos\PageRepo;
+use App\Entities\Tools\ExportFormatter;
+use App\Entities\Tools\PageContent;
+use App\Exceptions\NotFoundException;
 use Throwable;
 
 class PageExportController extends Controller

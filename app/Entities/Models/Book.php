@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Entities\Models;
+namespace App\Entities\Models;
 
-use BookStack\Uploads\Image;
+use App\Uploads\Image;
 use Exception;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

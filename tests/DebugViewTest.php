@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use BookStack\Auth\Access\SocialAuthService;
+use App\Auth\Access\SocialAuthService;
 use Illuminate\Testing\TestResponse;
 
 class DebugViewTest extends TestCase
@@ -23,10 +23,10 @@ class DebugViewTest extends TestCase
         $resp->assertSeeText('WARNING: Application is in debug mode. This mode has the potential to leak');
         // PHP version
         $resp->assertSeeText('PHP Version: ' . phpversion());
-        // BookStack version
-        $resp->assertSeeText('BookStack Version: ' . trim(file_get_contents(base_path('version'))));
+        // App version
+        $resp->assertSeeText('App Version: ' . trim(file_get_contents(base_path('version'))));
         // Dynamic help links
-        $this->withHtml($resp)->assertElementExists('a[href*="q=' . urlencode('BookStack An error occurred during testing') . '"]');
+        $this->withHtml($resp)->assertElementExists('a[href*="q=' . urlencode('App An error occurred during testing') . '"]');
         $this->withHtml($resp)->assertElementExists('a[href*="?q=is%3Aissue+' . urlencode('An error occurred during testing') . '"]');
     }
 

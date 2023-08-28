@@ -2,7 +2,7 @@
 
 namespace Tests\Permissions;
 
-use BookStack\Auth\User;
+use App\Auth\User;
 use Tests\TestCase;
 
 class EntityOwnerChangeTest extends TestCase

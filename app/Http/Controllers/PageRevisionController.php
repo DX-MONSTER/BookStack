@@ -1,14 +1,14 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Entities\Models\PageRevision;
-use BookStack\Entities\Repos\PageRepo;
-use BookStack\Entities\Tools\PageContent;
-use BookStack\Exceptions\NotFoundException;
-use BookStack\Facades\Activity;
-use BookStack\Util\SimpleListOptions;
+use App\Actions\ActivityType;
+use App\Entities\Models\PageRevision;
+use App\Entities\Repos\PageRepo;
+use App\Entities\Tools\PageContent;
+use App\Exceptions\NotFoundException;
+use App\Facades\Activity;
+use App\Util\SimpleListOptions;
 use Illuminate\Http\Request;
 use Ssddanbrown\HtmlDiff\Diff;
 

@@ -2,7 +2,7 @@
 
 namespace Tests\Api;
 
-use BookStack\Entities\Models\Book;
+use App\Entities\Models\Book;
 use Tests\TestCase;
 
 class ApiListingTest extends TestCase

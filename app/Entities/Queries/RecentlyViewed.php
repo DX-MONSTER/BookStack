@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Entities\Queries;
+namespace App\Entities\Queries;
 
-use BookStack\Actions\View;
+use App\Actions\View;
 use Illuminate\Support\Collection;
 
 class RecentlyViewed extends EntityQuery

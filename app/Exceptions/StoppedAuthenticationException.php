@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Exceptions;
+namespace App\Exceptions;
 
-use BookStack\Auth\Access\LoginService;
-use BookStack\Auth\User;
+use App\Auth\Access\LoginService;
+use App\Auth\User;
 use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Http\Request;
 

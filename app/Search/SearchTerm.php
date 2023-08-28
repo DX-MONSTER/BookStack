@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Search;
+namespace App\Search;
 
-use BookStack\Model;
+use App\Model;
 
 class SearchTerm extends Model
 {

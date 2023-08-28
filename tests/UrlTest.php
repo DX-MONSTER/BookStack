@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use BookStack\Http\Request;
+use App\Http\Request;
 
 class UrlTest extends TestCase
 {

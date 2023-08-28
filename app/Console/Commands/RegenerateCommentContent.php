@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Console\Commands;
+namespace App\Console\Commands;
 
-use BookStack\Actions\Comment;
-use BookStack\Actions\CommentRepo;
+use App\Actions\Comment;
+use App\Actions\CommentRepo;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 

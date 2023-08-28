@@ -2,7 +2,7 @@
 
 namespace Tests\Entity;
 
-use BookStack\Entities\Models\Page;
+use App\Entities\Models\Page;
 use Tests\TestCase;
 
 class PageTemplateTest extends TestCase

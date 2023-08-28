@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Console\Commands;
+namespace App\Console\Commands;
 
-use BookStack\Actions\View;
+use App\Actions\View;
 use Illuminate\Console\Command;
 
 class ClearViews extends Command

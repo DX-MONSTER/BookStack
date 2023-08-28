@@ -1,14 +1,14 @@
 <?php
 
-namespace BookStack\Auth\Access\Oidc;
+namespace App\Auth\Access\Oidc;
 
-use BookStack\Auth\Access\GroupSyncService;
-use BookStack\Auth\Access\LoginService;
-use BookStack\Auth\Access\RegistrationService;
-use BookStack\Auth\User;
-use BookStack\Exceptions\JsonDebugException;
-use BookStack\Exceptions\StoppedAuthenticationException;
-use BookStack\Exceptions\UserRegistrationException;
+use App\Auth\Access\GroupSyncService;
+use App\Auth\Access\LoginService;
+use App\Auth\Access\RegistrationService;
+use App\Auth\User;
+use App\Exceptions\JsonDebugException;
+use App\Exceptions\StoppedAuthenticationException;
+use App\Exceptions\UserRegistrationException;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Cache;
 use League\OAuth2\Client\OptionProvider\HttpBasicAuthOptionProvider;

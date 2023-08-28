@@ -2,12 +2,12 @@
 
 namespace Database\Factories\Uploads;
 
-use BookStack\Auth\User;
-use BookStack\Entities\Models\Page;
+use App\Auth\User;
+use App\Entities\Models\Page;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\BookStack\Uploads\Attachment>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Uploads\Attachment>
  */
 class AttachmentFactory extends Factory
 {
@@ -16,7 +16,7 @@ class AttachmentFactory extends Factory
      *
      * @var string
      */
-    protected $model = \BookStack\Uploads\Attachment::class;
+    protected $model = \App\Uploads\Attachment::class;
 
     /**
      * Define the model's default state.

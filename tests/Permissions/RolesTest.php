@@ -2,16 +2,16 @@
 
 namespace Tests\Permissions;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Actions\Comment;
-use BookStack\Auth\Role;
-use BookStack\Auth\User;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Models\Page;
-use BookStack\Uploads\Image;
+use App\Actions\ActivityType;
+use App\Actions\Comment;
+use App\Auth\Role;
+use App\Auth\User;
+use App\Entities\Models\Book;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Entity;
+use App\Entities\Models\Page;
+use App\Uploads\Image;
 use Illuminate\Testing\TestResponse;
 use Tests\TestCase;
 

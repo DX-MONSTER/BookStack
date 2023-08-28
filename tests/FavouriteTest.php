@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use BookStack\Actions\Favourite;
-use BookStack\Auth\User;
+use App\Actions\Favourite;
+use App\Auth\User;
 
 class FavouriteTest extends TestCase
 {

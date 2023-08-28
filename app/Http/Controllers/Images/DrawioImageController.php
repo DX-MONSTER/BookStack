@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Http\Controllers\Images;
+namespace App\Http\Controllers\Images;
 
-use BookStack\Exceptions\ImageUploadException;
-use BookStack\Http\Controllers\Controller;
-use BookStack\Uploads\ImageRepo;
+use App\Exceptions\ImageUploadException;
+use App\Http\Controllers\Controller;
+use App\Uploads\ImageRepo;
 use Exception;
 use Illuminate\Http\Request;
 

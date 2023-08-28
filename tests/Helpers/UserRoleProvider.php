@@ -2,9 +2,9 @@
 
 namespace Tests\Helpers;
 
-use BookStack\Auth\Permissions\PermissionsRepo;
-use BookStack\Auth\Role;
-use BookStack\Auth\User;
+use App\Auth\Permissions\PermissionsRepo;
+use App\Auth\Role;
+use App\Auth\User;
 
 class UserRoleProvider
 {

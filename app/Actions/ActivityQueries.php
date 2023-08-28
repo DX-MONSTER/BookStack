@@ -1,13 +1,13 @@
 <?php
 
-namespace BookStack\Actions;
+namespace App\Actions;
 
-use BookStack\Auth\Permissions\PermissionApplicator;
-use BookStack\Auth\User;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Models\Page;
+use App\Auth\Permissions\PermissionApplicator;
+use App\Auth\User;
+use App\Entities\Models\Book;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Entity;
+use App\Entities\Models\Page;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\Relation;
 

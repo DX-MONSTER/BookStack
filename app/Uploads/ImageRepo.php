@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Uploads;
+namespace App\Uploads;
 
-use BookStack\Auth\Permissions\PermissionApplicator;
-use BookStack\Entities\Models\Page;
-use BookStack\Exceptions\ImageUploadException;
+use App\Auth\Permissions\PermissionApplicator;
+use App\Entities\Models\Page;
+use App\Exceptions\ImageUploadException;
 use Exception;
 use Illuminate\Database\Eloquent\Builder;
 use Symfony\Component\HttpFoundation\File\UploadedFile;

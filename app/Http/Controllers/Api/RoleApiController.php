@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Http\Controllers\Api;
+namespace App\Http\Controllers\Api;
 
-use BookStack\Auth\Permissions\PermissionsRepo;
-use BookStack\Auth\Role;
+use App\Auth\Permissions\PermissionsRepo;
+use App\Auth\Role;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 

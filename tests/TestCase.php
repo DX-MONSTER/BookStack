@@ -2,9 +2,9 @@
 
 namespace Tests;
 
-use BookStack\Entities\Models\Entity;
-use BookStack\Settings\SettingService;
-use BookStack\Uploads\HttpFetcher;
+use App\Entities\Models\Entity;
+use App\Settings\SettingService;
+use App\Uploads\HttpFetcher;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
@@ -121,7 +121,7 @@ abstract class TestCase extends BaseTestCase
     }
 
     /**
-     * Mock the http client used in BookStack.
+     * Mock the http client used in App.
      * Returns a reference to the container which holds all history of http transactions.
      *
      * @link https://docs.guzzlephp.org/en/stable/testing.html#history-middleware

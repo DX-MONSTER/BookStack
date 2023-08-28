@@ -2,9 +2,9 @@
 
 namespace Tests\Commands;
 
-use BookStack\Auth\Permissions\CollapsedPermission;
-use BookStack\Auth\Permissions\EntityPermission;
-use BookStack\Auth\Permissions\JointPermission;
+use App\Auth\Permissions\CollapsedPermission;
+use App\Auth\Permissions\EntityPermission;
+use App\Auth\Permissions\JointPermission;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Tests\TestCase;

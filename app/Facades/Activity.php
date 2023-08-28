@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Facades;
+namespace App\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @mixin \BookStack\Actions\ActivityLogger
+ * @mixin \App\Actions\ActivityLogger
  */
 class Activity extends Facade
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\References\ModelResolvers;
+namespace App\References\ModelResolvers;
 
-use BookStack\Entities\Models\Page;
-use BookStack\Model;
+use App\Entities\Models\Page;
+use App\Model;
 
 class PagePermalinkModelResolver implements CrossLinkModelResolver
 {

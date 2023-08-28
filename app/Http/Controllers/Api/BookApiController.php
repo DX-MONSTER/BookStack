@@ -1,13 +1,13 @@
 <?php
 
-namespace BookStack\Http\Controllers\Api;
+namespace App\Http\Controllers\Api;
 
-use BookStack\Api\ApiEntityListFormatter;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Repos\BookRepo;
-use BookStack\Entities\Tools\BookContents;
+use App\Api\ApiEntityListFormatter;
+use App\Entities\Models\Book;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Entity;
+use App\Entities\Repos\BookRepo;
+use App\Entities\Tools\BookContents;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
 
@@ -52,7 +52,7 @@ class BookApiController extends ApiController
     /**
      * View the details of a single book.
      * The response data will contain 'content' property listing the chapter and pages directly within, in
-     * the same structure as you'd see within the BookStack interface when viewing a book. Top-level
+     * the same structure as you'd see within the App interface when viewing a book. Top-level
      * contents will have a 'type' property to distinguish between pages & chapters.
      */
     public function read(string $id)

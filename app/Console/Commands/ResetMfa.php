@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Console\Commands;
+namespace App\Console\Commands;
 
-use BookStack\Auth\User;
+use App\Auth\User;
 use Illuminate\Console\Command;
 
 class ResetMfa extends Command

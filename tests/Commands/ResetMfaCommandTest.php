@@ -2,8 +2,8 @@
 
 namespace Tests\Commands;
 
-use BookStack\Auth\Access\Mfa\MfaValue;
-use BookStack\Auth\User;
+use App\Auth\Access\Mfa\MfaValue;
+use App\Auth\User;
 use Tests\TestCase;
 
 class ResetMfaCommandTest extends TestCase

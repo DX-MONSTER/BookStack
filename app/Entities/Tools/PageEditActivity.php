@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Entities\Tools;
+namespace App\Entities\Tools;
 
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Models\PageRevision;
+use App\Entities\Models\Page;
+use App\Entities\Models\PageRevision;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 

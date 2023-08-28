@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Uploads;
+namespace App\Uploads;
 
-use BookStack\Auth\User;
-use BookStack\Exceptions\HttpFetchException;
+use App\Auth\User;
+use App\Exceptions\HttpFetchException;
 use Exception;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;

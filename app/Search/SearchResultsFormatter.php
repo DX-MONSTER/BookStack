@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Search;
+namespace App\Search;
 
-use BookStack\Actions\Tag;
-use BookStack\Entities\Models\Entity;
+use App\Actions\Tag;
+use App\Entities\Models\Entity;
 use Illuminate\Support\HtmlString;
 
 class SearchResultsFormatter

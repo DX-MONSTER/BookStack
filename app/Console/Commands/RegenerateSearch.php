@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Console\Commands;
+namespace App\Console\Commands;
 
-use BookStack\Entities\Models\Entity;
-use BookStack\Search\SearchIndex;
+use App\Entities\Models\Entity;
+use App\Search\SearchIndex;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 

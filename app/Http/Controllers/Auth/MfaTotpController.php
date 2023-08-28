@@ -1,15 +1,15 @@
 <?php
 
-namespace BookStack\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Auth\Access\LoginService;
-use BookStack\Auth\Access\Mfa\MfaSession;
-use BookStack\Auth\Access\Mfa\MfaValue;
-use BookStack\Auth\Access\Mfa\TotpService;
-use BookStack\Auth\Access\Mfa\TotpValidationRule;
-use BookStack\Exceptions\NotFoundException;
-use BookStack\Http\Controllers\Controller;
+use App\Actions\ActivityType;
+use App\Auth\Access\LoginService;
+use App\Auth\Access\Mfa\MfaSession;
+use App\Auth\Access\Mfa\MfaValue;
+use App\Auth\Access\Mfa\TotpService;
+use App\Auth\Access\Mfa\TotpValidationRule;
+use App\Exceptions\NotFoundException;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
 

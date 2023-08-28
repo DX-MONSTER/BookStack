@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Auth\Access\Guards;
+namespace App\Auth\Access\Guards;
 
-use BookStack\Auth\Access\RegistrationService;
+use App\Auth\Access\RegistrationService;
 use Illuminate\Auth\GuardHelpers;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Contracts\Auth\StatefulGuard;

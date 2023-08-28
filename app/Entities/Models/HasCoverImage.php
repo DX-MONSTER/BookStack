@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Entities\Models;
+namespace App\Entities\Models;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Entities\Models\Deletion;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Repos\DeletionRepo;
-use BookStack\Entities\Tools\TrashCan;
+use App\Actions\ActivityType;
+use App\Entities\Models\Deletion;
+use App\Entities\Models\Entity;
+use App\Entities\Repos\DeletionRepo;
+use App\Entities\Tools\TrashCan;
 
 class RecycleBinController extends Controller
 {

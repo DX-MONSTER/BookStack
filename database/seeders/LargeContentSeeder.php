@@ -2,13 +2,13 @@
 
 namespace Database\Seeders;
 
-use BookStack\Auth\Permissions\JointPermissionBuilder;
-use BookStack\Auth\Role;
-use BookStack\Auth\User;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Page;
-use BookStack\Search\SearchIndex;
+use App\Auth\Permissions\JointPermissionBuilder;
+use App\Auth\Role;
+use App\Auth\User;
+use App\Entities\Models\Book;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Page;
+use App\Search\SearchIndex;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 

@@ -2,8 +2,8 @@
 
 namespace Tests\Settings;
 
-use BookStack\Actions\ActivityType;
-use BookStack\References\ReferenceStore;
+use App\Actions\ActivityType;
+use App\References\ReferenceStore;
 use Tests\TestCase;
 
 class RegenerateReferencesTest extends TestCase

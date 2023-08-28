@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use BookStack\Auth\Access\Saml2Service;
-use BookStack\Http\Controllers\Controller;
+use App\Auth\Access\Saml2Service;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 

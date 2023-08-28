@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use BookStack\Auth\Access\Oidc\OidcException;
-use BookStack\Auth\Access\Oidc\OidcService;
-use BookStack\Http\Controllers\Controller;
+use App\Auth\Access\Oidc\OidcException;
+use App\Auth\Access\Oidc\OidcService;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class OidcController extends Controller

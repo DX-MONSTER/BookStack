@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Entities\Queries;
+namespace App\Entities\Queries;
 
-use BookStack\Actions\Favourite;
+use App\Actions\Favourite;
 use Illuminate\Database\Query\JoinClause;
 
 class TopFavourites extends EntityQuery

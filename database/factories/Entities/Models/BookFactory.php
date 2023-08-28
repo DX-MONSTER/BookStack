@@ -12,7 +12,7 @@ class BookFactory extends Factory
      *
      * @var string
      */
-    protected $model = \BookStack\Entities\Models\Book::class;
+    protected $model = \App\Entities\Models\Book::class;
 
     /**
      * Define the model's default state.

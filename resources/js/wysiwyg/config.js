@@ -233,7 +233,7 @@ export function build(options) {
     // Set language
     window.tinymce.addI18n(options.language, options.translationMap);
 
-    // BookStack Version
+    // App Version
     const version = document.querySelector('script[src*="/dist/app.js"]').getAttribute('src').split('?version=')[1];
 
     // Return config object

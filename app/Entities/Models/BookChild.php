@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Entities\Models;
+namespace App\Entities\Models;
 
-use BookStack\References\ReferenceUpdater;
+use App\References\ReferenceUpdater;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 

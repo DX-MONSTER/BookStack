@@ -1,15 +1,15 @@
 <?php
 
-namespace BookStack\Auth\Access\Guards;
+namespace App\Auth\Access\Guards;
 
-use BookStack\Auth\Access\LdapService;
-use BookStack\Auth\Access\RegistrationService;
-use BookStack\Auth\User;
-use BookStack\Exceptions\JsonDebugException;
-use BookStack\Exceptions\LdapException;
-use BookStack\Exceptions\LoginAttemptEmailNeededException;
-use BookStack\Exceptions\LoginAttemptException;
-use BookStack\Exceptions\UserRegistrationException;
+use App\Auth\Access\LdapService;
+use App\Auth\Access\RegistrationService;
+use App\Auth\User;
+use App\Exceptions\JsonDebugException;
+use App\Exceptions\LdapException;
+use App\Exceptions\LoginAttemptEmailNeededException;
+use App\Exceptions\LoginAttemptException;
+use App\Exceptions\UserRegistrationException;
 use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Contracts\Session\Session;
 use Illuminate\Support\Str;
@@ -60,7 +60,7 @@ class LdapSessionGuard extends ExternalBaseSessionGuard
      * @param array $credentials
      * @param bool  $remember
      *
-     * @throws LdapException*@throws \BookStack\Exceptions\JsonDebugException
+     * @throws LdapException*@throws \App\Exceptions\JsonDebugException
      * @throws LoginAttemptException
      * @throws JsonDebugException
      *

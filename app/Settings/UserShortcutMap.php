@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Settings;
+namespace App\Settings;
 
 class UserShortcutMap
 {

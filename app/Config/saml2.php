@@ -15,11 +15,11 @@ return [
     'email_attribute' => env('SAML2_EMAIL_ATTRIBUTE', 'email'),
     // Attribute, within a SAML response, to find the user's display name
     'display_name_attributes' => explode('|', env('SAML2_DISPLAY_NAME_ATTRIBUTES', 'username')),
-    // Attribute, within a SAML response, to use to connect a BookStack user to the SAML user.
+    // Attribute, within a SAML response, to use to connect a App user to the SAML user.
     'external_id_attribute' => env('SAML2_EXTERNAL_ID_ATTRIBUTE', null),
 
     // Group sync options
-    // Enable syncing, upon login, of SAML2 groups to BookStack groups
+    // Enable syncing, upon login, of SAML2 groups to App groups
     'user_to_groups' => env('SAML2_USER_TO_GROUPS', false),
     // Attribute, within a SAML response, to find group names on
     'group_attribute' => env('SAML2_GROUP_ATTRIBUTE', 'group'),

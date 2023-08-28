@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Providers;
+namespace App\Providers;
 
-use BookStack\Entities\BreadcrumbsViewComposer;
+use App\Entities\BreadcrumbsViewComposer;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\View;

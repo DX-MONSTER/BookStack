@@ -1,7 +1,7 @@
 <?php
 /**
  * Settings text strings
- * Contains all text strings used in the general settings sections of BookStack
+ * Contains all text strings used in the general settings sections of App
  * including users and roles.
  */
 return [
@@ -20,7 +20,7 @@ return [
     'app_name_desc' => 'Tên này được hiển thị trong header và trong bất kì email hệ thống được gửi.',
     'app_name_header' => 'Hiển thị tên trong header',
     'app_public_access' => 'Quyền truy cập công khai',
-    'app_public_access_desc' => 'Bật tùy chọn này sẽ cho phép khách, người không cần đăng nhập, truy cập đến nội dung bản BookStack của bạn.',
+    'app_public_access_desc' => 'Bật tùy chọn này sẽ cho phép khách, người không cần đăng nhập, truy cập đến nội dung bản App của bạn.',
     'app_public_access_desc_guest' => 'Quyền truy cập của khách có thể được điều khiển thông qua người dùng "Guest".',
     'app_public_access_toggle' => 'Cho phép truy cập công khai',
     'app_public_viewing' => 'Cho phép xem công khai?',
@@ -50,8 +50,8 @@ return [
 
     // Color settings
     'color_scheme' => 'Ứng dụng bảng màu',
-    'color_scheme_desc' => 'Đặt các màu sẽ sử dụng trong giao diện BookStack. Màu sắc có thể được định cấu hình riêng cho chế độ tối và sáng để phù hợp nhất với chủ đề và đảm bảo mức độ rõ ràng.',
-    'ui_colors_desc' => 'Thiết lập màu chính và màu liên kết mặc định cho BookStack. Màu cơ bản được sử dụng chủ yếu cho banner tiêu đề, các nút và trang trí giao diện. Màu liên kết mặc định được sử dụng cho các liên kết và hành động dựa trên văn bản, cả trong nội dung bằng văn bản và trong giao diện Ngăn xếp sách.',
+    'color_scheme_desc' => 'Đặt các màu sẽ sử dụng trong giao diện App. Màu sắc có thể được định cấu hình riêng cho chế độ tối và sáng để phù hợp nhất với chủ đề và đảm bảo mức độ rõ ràng.',
+    'ui_colors_desc' => 'Thiết lập màu chính và màu liên kết mặc định cho App. Màu cơ bản được sử dụng chủ yếu cho banner tiêu đề, các nút và trang trí giao diện. Màu liên kết mặc định được sử dụng cho các liên kết và hành động dựa trên văn bản, cả trong nội dung bằng văn bản và trong giao diện Ngăn xếp sách.',
     'app_color' => 'Màu cơ bản',
     'link_color' => 'Màu liên kết mặc định',
     'content_colors_desc' => 'Đặt màu cho tất cả các thành phần trong phân cấp tổ chức trang. Nên chọn màu có độ sáng tương tự với màu mặc định để có thể đọc được.',

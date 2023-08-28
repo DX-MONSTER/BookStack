@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\References;
+namespace App\References;
 
-use BookStack\Auth\Permissions\JointPermission;
+use App\Auth\Permissions\JointPermission;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

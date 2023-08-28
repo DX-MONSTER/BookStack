@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use BookStack\Entities\Repos\BaseRepo;
-use BookStack\Entities\Repos\BookRepo;
+use App\Entities\Repos\BaseRepo;
+use App\Entities\Repos\BookRepo;
 use Illuminate\Support\Str;
 use Illuminate\Testing\TestResponse;
 
@@ -15,7 +15,7 @@ class OpenGraphTest extends TestCase
         $resp = $this->asEditor()->get($page->getUrl());
         $tags = $this->getOpenGraphTags($resp);
 
-        $this->assertEquals($page->getShortName() . ' | BookStack', $tags['title']);
+        $this->assertEquals($page->getShortName() . ' | App', $tags['title']);
         $this->assertEquals($page->getUrl(), $tags['url']);
         $this->assertEquals(Str::limit($page->text, 100, '...'), $tags['description']);
     }
@@ -26,7 +26,7 @@ class OpenGraphTest extends TestCase
         $resp = $this->asEditor()->get($chapter->getUrl());
         $tags = $this->getOpenGraphTags($resp);
 
-        $this->assertEquals($chapter->getShortName() . ' | BookStack', $tags['title']);
+        $this->assertEquals($chapter->getShortName() . ' | App', $tags['title']);
         $this->assertEquals($chapter->getUrl(), $tags['url']);
         $this->assertEquals(Str::limit($chapter->description, 100, '...'), $tags['description']);
     }
@@ -37,7 +37,7 @@ class OpenGraphTest extends TestCase
         $resp = $this->asEditor()->get($book->getUrl());
         $tags = $this->getOpenGraphTags($resp);
 
-        $this->assertEquals($book->getShortName() . ' | BookStack', $tags['title']);
+        $this->assertEquals($book->getShortName() . ' | App', $tags['title']);
         $this->assertEquals($book->getUrl(), $tags['url']);
         $this->assertEquals(Str::limit($book->description, 100, '...'), $tags['description']);
         $this->assertArrayNotHasKey('image', $tags);
@@ -57,7 +57,7 @@ class OpenGraphTest extends TestCase
         $resp = $this->asEditor()->get($shelf->getUrl());
         $tags = $this->getOpenGraphTags($resp);
 
-        $this->assertEquals($shelf->getShortName() . ' | BookStack', $tags['title']);
+        $this->assertEquals($shelf->getShortName() . ' | App', $tags['title']);
         $this->assertEquals($shelf->getUrl(), $tags['url']);
         $this->assertEquals(Str::limit($shelf->description, 100, '...'), $tags['description']);
         $this->assertArrayNotHasKey('image', $tags);

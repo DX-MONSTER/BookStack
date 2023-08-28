@@ -2,11 +2,11 @@
 
 namespace Tests\Entity;
 
-use BookStack\Auth\Role;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Tools\PdfGenerator;
+use App\Auth\Role;
+use App\Entities\Models\Book;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Page;
+use App\Entities\Tools\PdfGenerator;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Tests\TestCase;

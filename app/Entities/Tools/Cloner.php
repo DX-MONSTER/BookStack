@@ -1,19 +1,19 @@
 <?php
 
-namespace BookStack\Entities\Tools;
+namespace App\Entities\Tools;
 
-use BookStack\Actions\Tag;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Models\Chapter;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Models\HasCoverImage;
-use BookStack\Entities\Models\Page;
-use BookStack\Entities\Repos\BookRepo;
-use BookStack\Entities\Repos\ChapterRepo;
-use BookStack\Entities\Repos\PageRepo;
-use BookStack\Uploads\Image;
-use BookStack\Uploads\ImageService;
+use App\Actions\Tag;
+use App\Entities\Models\Book;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Models\Chapter;
+use App\Entities\Models\Entity;
+use App\Entities\Models\HasCoverImage;
+use App\Entities\Models\Page;
+use App\Entities\Repos\BookRepo;
+use App\Entities\Repos\ChapterRepo;
+use App\Entities\Repos\PageRepo;
+use App\Uploads\Image;
+use App\Uploads\ImageService;
 use Illuminate\Http\UploadedFile;
 
 class Cloner

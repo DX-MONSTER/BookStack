@@ -1,12 +1,12 @@
 <?php
 
-namespace BookStack\Auth\Access;
+namespace App\Auth\Access;
 
-use BookStack\Auth\SocialAccount;
-use BookStack\Auth\User;
-use BookStack\Exceptions\SocialDriverNotConfigured;
-use BookStack\Exceptions\SocialSignInAccountNotUsed;
-use BookStack\Exceptions\UserRegistrationException;
+use App\Auth\SocialAccount;
+use App\Auth\User;
+use App\Exceptions\SocialDriverNotConfigured;
+use App\Exceptions\SocialSignInAccountNotUsed;
+use App\Exceptions\UserRegistrationException;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Str;
 use Laravel\Socialite\Contracts\Factory as Socialite;

@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Entities\Tools;
+namespace App\Entities\Tools;
 
-use BookStack\Entities\Models\BookChild;
-use BookStack\Entities\Models\Entity;
+use App\Entities\Models\BookChild;
+use App\Entities\Models\Entity;
 use Illuminate\Support\Collection;
 
 /**

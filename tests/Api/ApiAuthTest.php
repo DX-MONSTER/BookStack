@@ -2,9 +2,9 @@
 
 namespace Tests\Api;
 
-use BookStack\Auth\Permissions\RolePermission;
-use BookStack\Auth\Role;
-use BookStack\Auth\User;
+use App\Auth\Permissions\RolePermission;
+use App\Auth\Role;
+use App\Auth\User;
 use Carbon\Carbon;
 use Tests\TestCase;
 

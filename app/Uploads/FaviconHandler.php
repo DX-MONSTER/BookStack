@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Uploads;
+namespace App\Uploads;
 
 use Illuminate\Http\UploadedFile;
 use Intervention\Image\ImageManager;

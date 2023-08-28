@@ -1,18 +1,18 @@
 <?php
 
-namespace BookStack\Theming;
+namespace App\Theming;
 
-use BookStack\Entities\Models\Page;
+use App\Entities\Models\Page;
 
 /**
- * The ThemeEvents used within BookStack.
+ * The ThemeEvents used within App.
  *
- * This file details the events that BookStack may fire via the custom
+ * This file details the events that App may fire via the custom
  * theme system, including event names, parameters and expected return types.
  *
  * This system is regarded as semi-stable.
  * We'll look to fix issues with it or migrate old event types but
- * events and their signatures may change in new versions of BookStack.
+ * events and their signatures may change in new versions of App.
  * We'd advise testing any usage of these events upon upgrade.
  */
 class ThemeEvents
@@ -20,13 +20,13 @@ class ThemeEvents
     /**
      * Activity logged event.
      * Runs right after an activity is logged by bookstack.
-     * These are the activities that can be seen in the audit log area of BookStack.
-     * Activity types can be seen listed in the \BookStack\Actions\ActivityType class.
+     * These are the activities that can be seen in the audit log area of App.
+     * Activity types can be seen listed in the \App\Actions\ActivityType class.
      * The provided $detail can be a string or a loggable type of model. You should check
      * the type before making use of this parameter.
      *
      * @param string                                $type
-     * @param string|\BookStack\Interfaces\Loggable $detail
+     * @param string|\App\Interfaces\Loggable $detail
      */
     const ACTIVITY_LOGGED = 'activity_logged';
 
@@ -34,7 +34,7 @@ class ThemeEvents
      * Application boot-up.
      * After main services are registered.
      *
-     * @param \BookStack\Application $app
+     * @param \App\Application $app
      */
     const APP_BOOT = 'app_boot';
 
@@ -45,7 +45,7 @@ class ThemeEvents
      * after registration. This is not emitted upon API usage.
      *
      * @param string               $authSystem
-     * @param \BookStack\Auth\User $user
+     * @param \App\Auth\User $user
      */
     const AUTH_LOGIN = 'auth_login';
 
@@ -56,7 +56,7 @@ class ThemeEvents
      * by LDAP, SAML and social systems. It only includes self-registrations.
      *
      * @param string               $authSystem
-     * @param \BookStack\Auth\User $user
+     * @param \App\Auth\User $user
      */
     const AUTH_REGISTER = 'auth_register';
 
@@ -73,7 +73,7 @@ class ThemeEvents
     /**
      * Page include parse event.
      * Runs when a page include tag is being parsed, typically when page content is being processed for viewing.
-     * Provides the "include tag" reference string, the default BookStack replacement content for the tag,
+     * Provides the "include tag" reference string, the default App replacement content for the tag,
      * the current page being processed, and the page that's being referenced by the include tag.
      * The referenced page may be null where the page does not exist or where permissions prevent visibility.
      * If the listener returns a non-null value, that will be used as the replacement HTML content instead.
@@ -113,16 +113,16 @@ class ThemeEvents
      * Webhook call before event.
      * Runs before a webhook endpoint is called. Allows for customization
      * of the data format & content within the webhook POST request.
-     * Provides the original event name as a string (see \BookStack\Actions\ActivityType)
+     * Provides the original event name as a string (see \App\Actions\ActivityType)
      * along with the webhook instance along with the event detail which may be a
      * "Loggable" model type or a string.
      * If the listener returns a non-null value, that will be used as the POST data instead
      * of the system default.
      *
      * @param string                                $event
-     * @param \BookStack\Actions\Webhook            $webhook
-     * @param string|\BookStack\Interfaces\Loggable $detail
-     * @param \BookStack\Auth\User                  $initiator
+     * @param \App\Actions\Webhook            $webhook
+     * @param string|\App\Interfaces\Loggable $detail
+     * @param \App\Auth\User                  $initiator
      * @param int                                   $initiatedTime
      */
     const WEBHOOK_CALL_BEFORE = 'webhook_call_before';

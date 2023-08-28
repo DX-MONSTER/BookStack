@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\References;
+namespace App\References;
 
-use BookStack\Entities\Models\Page;
+use App\Entities\Models\Page;
 use Illuminate\Database\Eloquent\Collection;
 
 class ReferenceStore

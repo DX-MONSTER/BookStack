@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Api;
+namespace App\Api;
 
-use BookStack\Auth\User;
-use BookStack\Interfaces\Loggable;
+use App\Auth\User;
+use App\Interfaces\Loggable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Carbon;

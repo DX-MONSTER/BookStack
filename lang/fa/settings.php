@@ -1,7 +1,7 @@
 <?php
 /**
  * Settings text strings
- * Contains all text strings used in the general settings sections of BookStack
+ * Contains all text strings used in the general settings sections of App
  * including users and roles.
  */
 return [
@@ -20,7 +20,7 @@ return [
     'app_name_desc' => 'این نام در هدر و در هر ایمیل ارسال شده توسط سیستم نشان داده شده است.',
     'app_name_header' => 'نمایش نام در هدر',
     'app_public_access' => 'دسترسی عمومی',
-    'app_public_access_desc' => 'فعال کردن این گزینه به بازدیدکنندگانی که وارد سیستم نشده‌اند اجازه می‌دهد تا به محتوای موجود در نمونه BookStack شما دسترسی داشته باشند.',
+    'app_public_access_desc' => 'فعال کردن این گزینه به بازدیدکنندگانی که وارد سیستم نشده‌اند اجازه می‌دهد تا به محتوای موجود در نمونه App شما دسترسی داشته باشند.',
     'app_public_access_desc_guest' => 'دسترسی بازدیدکنندگان عمومی را می توان از طریق کاربر "مهمان" کنترل کرد.',
     'app_public_access_toggle' => 'اجازه دسترسی عمومی',
     'app_public_viewing' => 'مشاهده عمومی مجاز است؟',
@@ -50,8 +50,8 @@ return [
 
     // Color settings
     'color_scheme' => 'ترکیب رنگی برنامه',
-    'color_scheme_desc' => 'Set the colors to use in the BookStack interface. Colors can be configured separately for dark and light modes to best fit the theme and ensure legibility.',
-    'ui_colors_desc' => 'Set the primary color and default link color for BookStack. The primary color is mainly used for the header banner, buttons and interface decorations. The default link color is used for text-based links and actions, both within written content and in the Bookstack interface.',
+    'color_scheme_desc' => 'Set the colors to use in the App interface. Colors can be configured separately for dark and light modes to best fit the theme and ensure legibility.',
+    'ui_colors_desc' => 'Set the primary color and default link color for App. The primary color is mainly used for the header banner, buttons and interface decorations. The default link color is used for text-based links and actions, both within written content and in the Bookstack interface.',
     'app_color' => 'Primary Color',
     'link_color' => 'Default Link Color',
     'content_colors_desc' => 'Set colors for all elements in the page organisation hierarchy. Choosing colors with a similar brightness to the default colors is recommended for readability.',

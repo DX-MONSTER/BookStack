@@ -12,7 +12,7 @@ class PageFactory extends Factory
      *
      * @var string
      */
-    protected $model = \BookStack\Entities\Models\Page::class;
+    protected $model = \App\Entities\Models\Page::class;
 
     /**
      * Define the model's default state.

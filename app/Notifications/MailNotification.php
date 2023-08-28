@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Notifications;
+namespace App\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

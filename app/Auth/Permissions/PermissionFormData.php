@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Auth\Permissions;
+namespace App\Auth\Permissions;
 
-use BookStack\Auth\Role;
-use BookStack\Entities\Models\Entity;
+use App\Auth\Role;
+use App\Entities\Models\Entity;
 
 class PermissionFormData
 {

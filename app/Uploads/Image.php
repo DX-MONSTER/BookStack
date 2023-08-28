@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Uploads;
+namespace App\Uploads;
 
-use BookStack\Auth\Permissions\JointPermission;
-use BookStack\Entities\Models\Page;
-use BookStack\Model;
-use BookStack\Traits\HasCreatorAndUpdater;
+use App\Auth\Permissions\JointPermission;
+use App\Entities\Models\Page;
+use App\Model;
+use App\Traits\HasCreatorAndUpdater;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 

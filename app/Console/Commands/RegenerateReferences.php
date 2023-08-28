@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Console\Commands;
+namespace App\Console\Commands;
 
-use BookStack\References\ReferenceStore;
+use App\References\ReferenceStore;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 

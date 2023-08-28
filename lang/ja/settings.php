@@ -1,7 +1,7 @@
 <?php
 /**
  * Settings text strings
- * Contains all text strings used in the general settings sections of BookStack
+ * Contains all text strings used in the general settings sections of App
  * including users and roles.
  */
 return [
@@ -20,7 +20,7 @@ return [
     'app_name_desc' => 'この名前はヘッダーやEメール内で表示されます。',
     'app_name_header' => 'ヘッダーにアプリケーション名を表示する',
     'app_public_access' => 'パブリック・アクセス',
-    'app_public_access_desc' => 'このオプションを有効にすると、ログインしていない訪問者があなたのBookStackインスタンスのコンテンツにアクセスできるようになります。',
+    'app_public_access_desc' => 'このオプションを有効にすると、ログインしていない訪問者があなたのAppインスタンスのコンテンツにアクセスできるようになります。',
     'app_public_access_desc_guest' => '一般の訪問者のアクセスは、「ゲスト」ユーザー権限を通じて制御することができます。',
     'app_public_access_toggle' => 'パブリックアクセスを許可',
     'app_public_viewing' => 'アプリケーションを公開する',
@@ -50,8 +50,8 @@ return [
 
     // Color settings
     'color_scheme' => 'アプリケーションの配色',
-    'color_scheme_desc' => 'BookStack インターフェイスで使用する色を設定します。 色はダークモードとライトモードで個別に設定することができ、テーマへの適合と読みやすさを確保することができます。',
-    'ui_colors_desc' => 'BookStackのプライマリカラーとデフォルトリンクカラーを設定します。プライマリカラーは主にヘッダーバナー、ボタン、インターフェイスの装飾に使用されます。 デフォルトのリンク色はテキストベースのリンクとアクションに使用されます。これは作成されたコンテンツと Bookstack インターフェイスの両方に適用されます。',
+    'color_scheme_desc' => 'App インターフェイスで使用する色を設定します。 色はダークモードとライトモードで個別に設定することができ、テーマへの適合と読みやすさを確保することができます。',
+    'ui_colors_desc' => 'Appのプライマリカラーとデフォルトリンクカラーを設定します。プライマリカラーは主にヘッダーバナー、ボタン、インターフェイスの装飾に使用されます。 デフォルトのリンク色はテキストベースのリンクとアクションに使用されます。これは作成されたコンテンツと Bookstack インターフェイスの両方に適用されます。',
     'app_color' => 'プライマリ色',
     'link_color' => 'デフォルトのリンク色',
     'content_colors_desc' => 'ページ構成階層の各要素に色を設定します。読みやすさを考慮して、デフォルトの色と同じような明るさの色を選ぶことをお勧めします。',

@@ -1,14 +1,14 @@
 <?php
 
-namespace BookStack\Auth;
+namespace App\Auth;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Auth\Access\UserInviteService;
-use BookStack\Entities\EntityProvider;
-use BookStack\Exceptions\NotifyException;
-use BookStack\Exceptions\UserUpdateException;
-use BookStack\Facades\Activity;
-use BookStack\Uploads\UserAvatars;
+use App\Actions\ActivityType;
+use App\Auth\Access\UserInviteService;
+use App\Entities\EntityProvider;
+use App\Exceptions\NotifyException;
+use App\Exceptions\UserUpdateException;
+use App\Facades\Activity;
+use App\Uploads\UserAvatars;
 use Exception;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log;

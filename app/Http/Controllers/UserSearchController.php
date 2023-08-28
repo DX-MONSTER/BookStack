@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Auth\User;
+use App\Auth\User;
 use Illuminate\Http\Request;
 
 class UserSearchController extends Controller

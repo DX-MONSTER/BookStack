@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Entities\Models;
+namespace App\Entities\Models;
 
-use BookStack\Auth\User;
-use BookStack\Interfaces\Loggable;
-use BookStack\Model;
+use App\Auth\User;
+use App\Interfaces\Loggable;
+use App\Model;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 

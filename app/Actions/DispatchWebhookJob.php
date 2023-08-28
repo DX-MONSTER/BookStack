@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Actions;
+namespace App\Actions;
 
-use BookStack\Auth\User;
-use BookStack\Facades\Theme;
-use BookStack\Interfaces\Loggable;
-use BookStack\Theming\ThemeEvents;
+use App\Auth\User;
+use App\Facades\Theme;
+use App\Interfaces\Loggable;
+use App\Theming\ThemeEvents;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

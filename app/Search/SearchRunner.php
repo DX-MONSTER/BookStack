@@ -1,13 +1,13 @@
 <?php
 
-namespace BookStack\Search;
+namespace App\Search;
 
-use BookStack\Auth\Permissions\PermissionApplicator;
-use BookStack\Auth\User;
-use BookStack\Entities\EntityProvider;
-use BookStack\Entities\Models\BookChild;
-use BookStack\Entities\Models\Entity;
-use BookStack\Entities\Models\Page;
+use App\Auth\Permissions\PermissionApplicator;
+use App\Auth\User;
+use App\Entities\EntityProvider;
+use App\Entities\Models\BookChild;
+use App\Entities\Models\Entity;
+use App\Entities\Models\Page;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;

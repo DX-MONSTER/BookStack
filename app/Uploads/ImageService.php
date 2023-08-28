@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Uploads;
+namespace App\Uploads;
 
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Bookshelf;
-use BookStack\Entities\Models\Page;
-use BookStack\Exceptions\ImageUploadException;
+use App\Entities\Models\Book;
+use App\Entities\Models\Bookshelf;
+use App\Entities\Models\Page;
+use App\Exceptions\ImageUploadException;
 use ErrorException;
 use Exception;
 use GuzzleHttp\Psr7\Utils;
@@ -610,7 +610,7 @@ class ImageService
     }
 
     /**
-     * Check if the given image extension is supported by BookStack.
+     * Check if the given image extension is supported by App.
      * The extension must not be altered in this function. This check should provide a guarantee
      * that the provided extension is safe to use for the image to be saved.
      */

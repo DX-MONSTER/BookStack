@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Theming;
+namespace App\Theming;
 
-use BookStack\Util\CspService;
-use BookStack\Util\HtmlContentFilter;
-use BookStack\Util\HtmlNonceApplicator;
+use App\Util\CspService;
+use App\Util\HtmlContentFilter;
+use App\Util\HtmlNonceApplicator;
 use Illuminate\Contracts\Cache\Repository as Cache;
 
 class CustomHtmlHeadContentProvider

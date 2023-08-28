@@ -1,18 +1,18 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\View;
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Repos\ChapterRepo;
-use BookStack\Entities\Tools\BookContents;
-use BookStack\Entities\Tools\Cloner;
-use BookStack\Entities\Tools\HierarchyTransformer;
-use BookStack\Entities\Tools\NextPreviousContentLocator;
-use BookStack\Exceptions\MoveOperationException;
-use BookStack\Exceptions\NotFoundException;
-use BookStack\Exceptions\PermissionsException;
-use BookStack\References\ReferenceFetcher;
+use App\Actions\View;
+use App\Entities\Models\Book;
+use App\Entities\Repos\ChapterRepo;
+use App\Entities\Tools\BookContents;
+use App\Entities\Tools\Cloner;
+use App\Entities\Tools\HierarchyTransformer;
+use App\Entities\Tools\NextPreviousContentLocator;
+use App\Exceptions\MoveOperationException;
+use App\Exceptions\NotFoundException;
+use App\Exceptions\PermissionsException;
+use App\References\ReferenceFetcher;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
 use Throwable;

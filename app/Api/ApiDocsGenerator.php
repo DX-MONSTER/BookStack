@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Api;
+namespace App\Api;
 
-use BookStack\Http\Controllers\Api\ApiController;
+use App\Http\Controllers\Api\ApiController;
 use Exception;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Collection;

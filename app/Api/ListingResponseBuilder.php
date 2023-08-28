@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Api;
+namespace App\Api;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;

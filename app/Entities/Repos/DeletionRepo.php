@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Entities\Repos;
+namespace App\Entities\Repos;
 
-use BookStack\Actions\ActivityType;
-use BookStack\Entities\Models\Deletion;
-use BookStack\Entities\Tools\TrashCan;
-use BookStack\Facades\Activity;
+use App\Actions\ActivityType;
+use App\Entities\Models\Deletion;
+use App\Entities\Tools\TrashCan;
+use App\Facades\Activity;
 
 class DeletionRepo
 {

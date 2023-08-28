@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Auth\Access;
+namespace App\Auth\Access;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\UserProvider;

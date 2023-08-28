@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Auth\Permissions;
+namespace App\Auth\Permissions;
 
 class PermissionStatus
 {

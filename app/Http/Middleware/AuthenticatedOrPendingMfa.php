@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Http\Middleware;
+namespace App\Http\Middleware;
 
-use BookStack\Auth\Access\LoginService;
-use BookStack\Auth\Access\Mfa\MfaSession;
+use App\Auth\Access\LoginService;
+use App\Auth\Access\Mfa\MfaSession;
 use Closure;
 
 class AuthenticatedOrPendingMfa

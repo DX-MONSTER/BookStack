@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Auth\Permissions;
+namespace App\Auth\Permissions;
 
-use BookStack\Auth\Role;
-use BookStack\Entities\Models\Entity;
-use BookStack\Model;
+use App\Auth\Role;
+use App\Entities\Models\Entity;
+use App\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 

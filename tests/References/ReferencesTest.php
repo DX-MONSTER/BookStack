@@ -2,10 +2,10 @@
 
 namespace Tests\References;
 
-use BookStack\Entities\Repos\PageRepo;
-use BookStack\Entities\Tools\TrashCan;
-use BookStack\Model;
-use BookStack\References\Reference;
+use App\Entities\Repos\PageRepo;
+use App\Entities\Tools\TrashCan;
+use App\Model;
+use App\References\Reference;
 use Tests\TestCase;
 
 class ReferencesTest extends TestCase

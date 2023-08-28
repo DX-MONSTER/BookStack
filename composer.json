@@ -1,8 +1,8 @@
 {
     "name": "bookstackapp/bookstack",
-    "description": "BookStack documentation platform",
+    "description": "App documentation platform",
     "keywords": [
-        "BookStack",
+        "App",
         "Documentation"
     ],
     "license": "MIT",
@@ -53,7 +53,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BookStack\\": "app/",
+            "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         },

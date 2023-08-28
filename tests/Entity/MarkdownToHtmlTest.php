@@ -2,7 +2,7 @@
 
 namespace Tests\Entity;
 
-use BookStack\Entities\Tools\Markdown\HtmlToMarkdown;
+use App\Entities\Tools\Markdown\HtmlToMarkdown;
 use Tests\TestCase;
 
 class MarkdownToHtmlTest extends TestCase

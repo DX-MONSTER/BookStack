@@ -2,8 +2,8 @@
 
 namespace Tests\Api;
 
-use BookStack\Entities\Models\Book;
-use BookStack\Entities\Models\Bookshelf;
+use App\Entities\Models\Book;
+use App\Entities\Models\Bookshelf;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 use Tests\TestCase;

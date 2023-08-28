@@ -1,8 +1,8 @@
 <?php
 
-namespace BookStack\Uploads;
+namespace App\Uploads;
 
-use BookStack\Exceptions\HttpFetchException;
+use App\Exceptions\HttpFetchException;
 
 class HttpFetcher
 {

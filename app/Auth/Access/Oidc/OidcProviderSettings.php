@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Auth\Access\Oidc;
+namespace App\Auth\Access\Oidc;
 
 use GuzzleHttp\Psr7\Request;
 use Illuminate\Contracts\Cache\Repository;

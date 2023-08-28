@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Entities\Tools\Markdown;
+namespace App\Entities\Tools\Markdown;
 
 use League\HTMLToMarkdown\Converter\BlockquoteConverter;
 use League\HTMLToMarkdown\Converter\CodeConverter;
@@ -50,7 +50,7 @@ class HtmlToMarkdown
 
     /**
      * Get the HTML to Markdown customized environment.
-     * Extends the default provided environment with some BookStack specific tweaks.
+     * Extends the default provided environment with some App specific tweaks.
      */
     protected function getConverterEnvironment(): Environment
     {

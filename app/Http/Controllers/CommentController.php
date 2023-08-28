@@ -1,9 +1,9 @@
 <?php
 
-namespace BookStack\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BookStack\Actions\CommentRepo;
-use BookStack\Entities\Models\Page;
+use App\Actions\CommentRepo;
+use App\Entities\Models\Page;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
 

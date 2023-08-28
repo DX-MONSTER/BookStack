@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Search;
+namespace App\Search;
 
 use Illuminate\Http\Request;
 
